@@ -79,7 +79,7 @@
 
 ### Регистрация на **Rosalind**
 
-Зарегистрироваться на (rosalind)[http://rosalind.info/]. Регистрируйтесь через гитхаб или гмейл, ну или как нравится.
+Зарегистрироваться на [rosalind](http://rosalind.info/). Регистрируйтесь через гитхаб или гмейл, ну или как нравится.
 И пройти [Python Village](http://rosalind.info/problems/list-view/?location=python-village) - это должно вам очень просто.
 Мой аккаунт [вот](http://rosalind.info/users/AK/).
 
