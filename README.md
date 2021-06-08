@@ -118,7 +118,7 @@
 
 [Задачки 1](https://contest.yandex.ru/contest/27393/enter/)
 
-[Лекция 1](https://www.youtube.com/watch?v=SKwB41FrGgU&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
+[Лекция 2](https://www.youtube.com/watch?v=SKwB41FrGgU&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
 
 [Задачки 2](https://contest.yandex.ru/contest/27472/enter/)
 
