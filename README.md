@@ -114,6 +114,14 @@
 Зарегистрироваться на [интро от яндекса](https://yandex.ru/yaintern/algorithm-training) там очень на пальцах про базовые концепции алгоритмов.
 От вас ожидается решенная первая домашка и первая лекция.
 
+[Лекция 1](https://www.youtube.com/watch?v=QLhqYNsPIVo&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0https://www.youtube.com/watch?v=QLhqYNsPIVo&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
+
+[Задачки 1](https://contest.yandex.ru/contest/27393/enter/)
+
+[Лекция 1](https://www.youtube.com/watch?v=SKwB41FrGgU&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
+
+[Задачки 2](https://contest.yandex.ru/contest/27472/enter/)
+
 ### Что нужно делать?
 
 1. Везде зарегаться и заполнить профайлы.
@@ -127,7 +135,8 @@
 9. Созать файл: **./students/\<your_username\>/rosalind/week1_solutions.md**.
 10. Решить задачки на codewars и поместить ссылки на решения в файл **./students/\<your_username\>/codewars/week1_solutions.md**.
 11. Решить задачки из Розалинда  и поместить ссылки на решения в файл **./students/\<your_username\>/rosalind/week1_solutions.md**.
-12. Создать файл для со всеми терминами из первой главы Кунина **./students/\<your_username\>/kunin/chapter1.md**, терпины разбить на три группы: понятно, не уверен, точно не понятно.
+12. Решить задачки из Яндекса  и поместить ссылки на решения в файл **./students/\<your_username\>/yandex/week1_solutions.md**.
+13. Создать файл для со всеми терминами из первой главы Кунина **./students/\<your_username\>/kunin/chapter1.md**, терпины разбить на три группы: понятно, не уверен, точно не понятно.
 
 В результате я ожидаю увидить что-то вот такое:
 
