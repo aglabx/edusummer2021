@@ -97,6 +97,15 @@
 И пройти [Python Village](http://rosalind.info/problems/list-view/?location=python-village) - это должно вам очень просто.
 Мой аккаунт [вот](http://rosalind.info/users/AK/).
 
+Задачки:
+
+1. [Installing Python](http://rosalind.info/problems/ini1/)
+2. [Variables and Some Arithmetic](http://rosalind.info/problems/ini2/)
+3. [Strings and Lists](http://rosalind.info/problems/ini3/)
+4. [Conditions and Loops](http://rosalind.info/problems/ini4/)
+5. [Working with Files](http://rosalind.info/problems/ini5/)
+6. [Dictionaries](http://rosalind.info/problems/ini6/)
+
 ### Решение алгоритмов
 
 Зарегистрироваться на [интро от яндекса](https://yandex.ru/yaintern/algorithm-training) там очень на пальцах про базовые концепции алгоритмов.
