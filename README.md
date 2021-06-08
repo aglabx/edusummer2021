@@ -23,9 +23,9 @@
 
 **edusummer2021/students/\<username\>/basic_algo** - решения задачек яндекса.
 
-**edusummer2021/students/\<username\>/codewars** - решения задачек codewars и маркдоун файл с ссылками на ваши решения.
+**edusummer2021/students/\<username\>/codewars** - решения задачек codewars и маркдаун файл с ссылками на ваши решения.
 
-**edusummer2021/students/\<username\>/codingame** - решения задачек codingame и маркдоун файл с ссылками на ваши решения.
+**edusummer2021/students/\<username\>/codingame** - решения задачек codingame и маркдаун файл с ссылками на ваши решения.
 
 **edusummer2021/students/\<username\>/rosalind** - решения задачек rosalind.
 
