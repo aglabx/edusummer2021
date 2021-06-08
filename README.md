@@ -127,18 +127,19 @@
 ### Что нужно делать?
 
 1. Везде зарегаться и заполнить профайлы.
-2. Посмотреть [инструкцию к гитхабу](github.md).
-3. Сделать форк этой репозитории к себе.
-4. Сделать новую ветку с именем **week1** и перейти в эту ветку.
-5. В этой ветке сделать файл **./students/\<your_username\>/about.md**.
-6. Заполнить этот файл нужными ссылками.
-7. Сделать pull request из **your_name/edusummer2021:week1** в **aglabx/edusummer2021:main** (это же можно назвать отправить на проверку и ревью).
-8. Созать файл: **./students/\<your_username\>/codewars/week1_solutions.md**.
-9. Созать файл: **./students/\<your_username\>/rosalind/week1_solutions.md**.
-10. Решить задачки на codewars и поместить ссылки на решения в файл **./students/\<your_username\>/codewars/week1_solutions.md**.
-11. Решить задачки из Розалинда  и поместить ссылки на решения в файл **./students/\<your_username\>/rosalind/week1_solutions.md**.
-12. Решить задачки из Яндекса  и поместить ссылки на решения в файл **./students/\<your_username\>/yandex/week1_solutions.md**.
-13. Создать файл для со всеми терминами из первой главы Кунина **./students/\<your_username\>/kunin/chapter1.md**, терпины разбить на три группы: понятно, не уверен, точно не понятно.
+2. Добавиться в группу телеграма [https://t.me/joinchat/JUSW8DXeS4phNTcy](https://t.me/joinchat/JUSW8DXeS4phNTcy).
+3. Посмотреть [инструкцию к гитхабу](github.md).
+4. Сделать форк этой репозитории к себе.
+5. Сделать новую ветку с именем **week1** и перейти в эту ветку.
+6. В этой ветке сделать файл **./students/\<your_username\>/about.md**.
+7. Заполнить этот файл нужными ссылками.
+8. Сделать pull request из **your_name/edusummer2021:week1** в **aglabx/edusummer2021:main** (это же можно назвать отправить на проверку и ревью).
+9. Созать файл: **./students/\<your_username\>/codewars/week1_solutions.md**.
+10. Созать файл: **./students/\<your_username\>/rosalind/week1_solutions.md**.
+11. Решить задачки на codewars и поместить ссылки на решения в файл **./students/\<your_username\>/codewars/week1_solutions.md**.
+12. Решить задачки из Розалинда  и поместить ссылки на решения в файл **./students/\<your_username\>/rosalind/week1_solutions.md**.
+13. Решить задачки из Яндекса  и поместить ссылки на решения в файл **./students/\<your_username\>/yandex/week1_solutions.md**.
+14. Создать файл для со всеми терминами из первой главы Кунина **./students/\<your_username\>/kunin/chapter1.md**, терпины разбить на три группы: понятно, не уверен, точно не понятно.
 
 В результате я ожидаю увидить что-то вот такое:
 
