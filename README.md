@@ -64,7 +64,7 @@
 
 На разогреться и освоить платформу (7 и 8 ку):
 
-1. [Opposite number](codewars.com/kata/56dec885c54a926dcd001095)
+1. [Opposite number](https://codewars.com/kata/56dec885c54a926dcd001095)
 2. [Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
 3. [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
 4. [Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
