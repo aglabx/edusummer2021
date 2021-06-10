@@ -16,8 +16,7 @@ def even_or_odd(number):
 
 ```python
 def get_count(input_str):
-    letters = [0] + [i for i in input_str]
-    return reduce(lambda x, y: x + 1 if y in "aeiou" else x + 0, letters)
+    return reduce(lambda x, y: x + 1 if y in "aeiou" else x + 0, input_str, 0) # Без закрытого тернарного выражения нельзя
 ```
 
 # [4. Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
