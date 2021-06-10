@@ -2,37 +2,31 @@
 
 ```python
 def opposite(number):
-    return - number
+    return -1 * number
 ```
 
 # [2. Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/python)
 
 ```python
 def even_or_odd(number):
-    return 'Even' if number % 2 == 0 else 'Odd'
+    return 'Odd' if number % 2 else 'Even'
 ```
 
 # [3. Vowel count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
 
 ```python
+from functools import reduce
+
+
 def get_count(input_str):
-    num_vowels = 0
-    num_vowels += input_str.count('a')
-    num_vowels += input_str.count('e')
-    num_vowels += input_str.count('i')
-    num_vowels += input_str.count('o')
-    num_vowels += input_str.count('u')
-    return num_vowels
+    return reduce(lambda x, y: x + (y in "aeiou"), input_str, 0)
 ```
 
 # [4. Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
 
 ```python
 def disemvowel(string_):
-    vowels = ('aeiouAEIOU')
-    for vowel in vowels:
-        string_ = string_.replace(vowel, '')
-    return string_
+    return ''.join(letter for letter in string_ if letter not in 'aeiouAEIOU')
 
 ```
 
@@ -56,9 +50,7 @@ def get_middle(s):
 
 ```python
 def sum_ppg(playerOne, playerTwo):
-    ppg_1 = playerOne['ppg']
-    ppg_2 = playerTwo['ppg']
-    return ppg_1 + ppg_2
+    return playerOne['ppg'] + playerTwo['ppg']
 ```
 
 
@@ -82,13 +74,7 @@ def likes(names):
 
 ```pyth
 def array_diff(a, b):
-    different_values = set(a) - set(b)
-    
-    array = []
-    for item in a:
-        if item in different_values:
-            array.append(item)
-    return array
+    return [item for item in a if item not in b]
 ```
 
 # [3. All Star Code Challenge #22](https://www.codewars.com/kata/5865cff66b5699883f0001aa)
