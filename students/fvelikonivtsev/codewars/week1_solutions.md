@@ -2,27 +2,25 @@
 
 ```python
 def opposite(number):
-    return - number
+    return - 1 * number
 ```
 
 # [2. Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/python)
 
 ```python
 def even_or_odd(number):
-    return 'Even' if number % 2 == 0 else 'Odd'
+    return 'Odd' if number % 2 else 'Even'
 ```
 
 # [3. Vowel count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
 
 ```python
 def get_count(input_str):
-    num_vowels = 0
-    num_vowels += input_str.count('a')
-    num_vowels += input_str.count('e')
-    num_vowels += input_str.count('i')
-    num_vowels += input_str.count('o')
-    num_vowels += input_str.count('u')
-    return num_vowels
+    vowels_unicode = (ord(vowel) for vowel in 'aeiou')
+    letters = {vowel: 0 for vowel in range(256)}
+    for letter in input_str:
+        letters[ord(letter)] += 1
+    return sum((letters[code] for code in vowels_unicode))
 ```
 
 # [4. Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
@@ -82,13 +80,7 @@ def likes(names):
 
 ```pyth
 def array_diff(a, b):
-    different_values = set(a) - set(b)
-    
-    array = []
-    for item in a:
-        if item in different_values:
-            array.append(item)
-    return array
+    return [item for item in a if item not in b]
 ```
 
 # [3. All Star Code Challenge #22](https://www.codewars.com/kata/5865cff66b5699883f0001aa)
