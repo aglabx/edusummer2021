@@ -16,21 +16,14 @@ def even_or_odd(number):
 
 ```python
 def get_count(input_str):
-    vowels_unicode = (ord(vowel) for vowel in 'aeiou')
-    letters = {vowel: 0 for vowel in range(256)}
-    for letter in input_str:
-        letters[ord(letter)] += 1
-    return sum((letters[code] for code in vowels_unicode))
+    return sum(1 for letter in input_str if letter in 'aeiou') # Если прям одна строка то минус память
 ```
 
 # [4. Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
 
 ```python
 def disemvowel(string_):
-    vowels = ('aeiouAEIOU')
-    for vowel in vowels:
-        string_ = string_.replace(vowel, '')
-    return string_
+    return ''.join(letter for letter in string_ if letter not in 'aeiouAEIOU')
 
 ```
 
