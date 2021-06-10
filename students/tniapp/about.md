@@ -2,6 +2,6 @@
 
 Мой розалинд: http://rosalind.info/users/tniapp/
 
-Мой codewars: 
+Мой codewars: https://www.codewars.com/users/Tniapp
 
 Мой codingame: 
