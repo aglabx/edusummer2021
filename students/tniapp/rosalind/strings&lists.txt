@@ -1,0 +1,16 @@
+dataset = "/mnt/c/Users/User/Downloads/dataset1.txt"
+
+with open(dataset) as fh:
+    for line in fh:
+        line = line.strip().split()
+        if len(line) == 1:
+            string = line
+        if len(line) > 1:
+            print(line)
+            for element in line:
+                element = int(element)
+                if element not in slices:
+                    slices.append(element)
+string = string[0]
+
+print(string[slices[0]: slices[1]+1], string[slices[2]: slices[3]+1])
