@@ -16,7 +16,8 @@ def even_or_odd(number):
 
 ```python
 def get_count(input_str):
-    return sum(1 for letter in input_str if letter in 'aeiou') # Если прям одна строка то минус память
+    letters = [0] + [i for i in input_str]
+    return reduce(lambda x, y: x + 1 if y in "aeiou" else x + 0, letters)
 ```
 
 # [4. Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
