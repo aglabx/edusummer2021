@@ -15,8 +15,11 @@ def even_or_odd(number):
 # [3. Vowel count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
 
 ```python
+from functools import reduce
+
+
 def get_count(input_str):
-    return reduce(lambda x, y: x + 1 if y in "aeiou" else x + 0, input_str, 0) # Без закрытого тернарного выражения нельзя
+    return reduce(lambda x, y: x + (y in "aeiou"), input_str, 0)
 ```
 
 # [4. Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
