@@ -47,9 +47,7 @@ def get_middle(s):
 
 ```python
 def sum_ppg(playerOne, playerTwo):
-    ppg_1 = playerOne['ppg']
-    ppg_2 = playerTwo['ppg']
-    return ppg_1 + ppg_2
+    return playerOne['ppg'] + playerTwo['ppg']
 ```
 
 
