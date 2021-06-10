@@ -12,5 +12,7 @@ with open(dataset) as fh:
                 if element not in slices:
                     slices.append(element)
 string = string[0]
+if len(string) > 200:
+    print("Something wrong in string format. Try another string with length less than 200 symbols")
 
 print(string[slices[0]: slices[1]+1], string[slices[2]: slices[3]+1])
