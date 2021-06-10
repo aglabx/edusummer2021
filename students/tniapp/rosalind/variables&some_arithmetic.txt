@@ -7,4 +7,7 @@ with open(dataset) as fh:
     for line in fh:
         a = int(line.split()[0])
         b = int(line.split()[1])
-print(a**2 + b**2)
+        if a > 1000 or b > 1000:
+            print("Try another numbers")
+        else:
+            print(a**2 + b**2)
