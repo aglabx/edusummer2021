@@ -2,7 +2,7 @@
 
 ```python
 def opposite(number):
-    return - 1 * number
+    return -1 * number
 ```
 
 # [2. Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/python)
