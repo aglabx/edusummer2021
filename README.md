@@ -195,6 +195,41 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 ![image](https://user-images.githubusercontent.com/142793/121209171-a072a300-c848-11eb-8927-0b4d94d1371b.png)
 
+## Как сдать задачки
+
+Для каждого типа задачек у вас есть файл **week1_solutions.md**, например, для codewars он будет лежать в **./students/\<your_username\>/codewars/week1_solutions.md**.
+
+Это файл нужно открыть в гитхаб и нажать кнопку редактировть, после этого в нем прописать ваши решения вот с таким синтаксисом
+
+``````text
+## [3. Vowel count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
+
+```python
+def get_count(input_str):
+    num_vowels = 0
+    num_vowels += input_str.count('a')
+    num_vowels += input_str.count('e')
+    num_vowels += input_str.count('i')
+    num_vowels += input_str.count('o')
+    num_vowels += input_str.count('u')
+    return num_vowels
+```
+
+# [6. Get the Middle Character](https://www.codewars.com/kata/5863f97fb3a675d9a700003f/python)
+
+```python
+def sum_ppg(playerOne, playerTwo):
+    ppg_1 = playerOne['ppg']
+    ppg_2 = playerTwo['ppg']
+    return ppg_1 + ppg_2
+``````
+
+1. **\#\#** - означает заголовок второго уровня
+2. **\[текст лина\]\(ссылка\) ** - так оформляются ссылки
+3. **\`\`\`python** - начала блока питона, дальще можно вставить код питона
+4. **\`\`\`** - окончания кода питона
+
+
 
 ## Общий таймлайн, дедлайны и другие организационные штуки
 
