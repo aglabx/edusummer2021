@@ -35,12 +35,18 @@ Return: The sum of all odd integers from aa through bb, inclusively.
 Solution:
 
 `a = int(input())`
+
 `b = int(input())`
 `l = []`
+
 `while a <= b:`
+
     `if a % 2 != 0:`
+    
         `l.append(a)`
+        
     `a = a + 1`
+    
 `print (sum(l))`
 
 ## Working with Files
@@ -52,18 +58,30 @@ Return: A file containing all the even-numbered lines from the original file. As
 Solution:
 
 `f = open('input.txt', 'r')`
+
 `lines = f.readlines()`
+
 `e = []`
+
 `for i in range (0, len(lines)):`
+
     `if i % 2 != 0:`
+    
         `e.append(i)`
+        
 `even_lines = []`
+
 `for i in e:`
+
     `even_lines.append(lines[i])`
 `f.close()`
+
 `f2 = open('output.txt', 'w')`
+
 `for i in even_lines:`
+
     `f2.write(str(i) + '\n')`
+    
 `f2.close()`
 
 ## Dictionaries
@@ -75,13 +93,23 @@ Return: The number of occurrences of each word in s, where words are separated b
 Solution:
 
 `string = open('string.txt', 'r')`
+
 `s = str(string.readline())`
+
 `d = {}`
+
 `for word in s.split():` 
+
     `if word in d:`
+    
         `d[word] += 1`
+        
     `else:`
+    
         `d[word] = 1`
+        
 `for key, value in d.items():`
+
     `print (key, value)`
+    
 `string.close()
