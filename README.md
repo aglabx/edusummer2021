@@ -222,6 +222,7 @@ def sum_ppg(playerOne, playerTwo):
     ppg_1 = playerOne['ppg']
     ppg_2 = playerTwo['ppg']
     return ppg_1 + ppg_2
+```
 ``````
 
 1. **\#\#** - означает заголовок второго уровня
