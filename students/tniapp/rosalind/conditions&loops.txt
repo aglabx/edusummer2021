@@ -9,11 +9,14 @@ with open(dataset) as fh:
         a = int(line[0])
         b = int(line[1])
 
-if a % 2 == 0:
-    a += 1
+if a > b or a >= 10000 or b >= 10000:
+    print("Please, select a < b or a, b < 10000")
+else:
+    if a % 2 == 0:
+        a += 1
 
-odd_sum = 0
-for number in range(a, b, 2):
-    odd_sum += number
-    
-print(odd_sum)
+    odd_sum = 0
+    for number in range(a, b, 2):
+        odd_sum += number
+
+    print(odd_sum)
