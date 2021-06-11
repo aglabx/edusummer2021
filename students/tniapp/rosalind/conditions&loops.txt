@@ -1,0 +1,19 @@
+# Given: Two positive integers a and b (a<b<10000).
+# Return: The sum of all odd integers from a through b, inclusively.
+
+dataset = "/mnt/c/Users/pchesnokova/Desktop/dataset.txt"
+
+with open(dataset) as fh:
+    for line in fh:
+        line = line.strip().split()
+        a = int(line[0])
+        b = int(line[1])
+
+if a % 2 == 0:
+    a += 1
+
+odd_sum = 0
+for number in range(a, b, 2):
+    odd_sum += number
+    
+print(odd_sum)
