@@ -161,7 +161,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 5. [Working with Files](http://rosalind.info/problems/ini5/)
 6. [Dictionaries](http://rosalind.info/problems/ini6/)
 
-### Решение алгоритмов
+### Решение алгоритмов (со звездочкой)
 
 Зарегистрироваться на [интро от яндекса](https://yandex.ru/yaintern/algorithm-training) там очень на пальцах про базовые концепции алгоритмов.
 От вас ожидается решенная первая домашка и первая лекция.
