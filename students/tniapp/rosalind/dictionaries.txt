@@ -1,0 +1,19 @@
+# Given: A string s of length at most 10000 letters.
+# Return: The number of occurrences of each word in s, where words are separated by spaces. Words are case-sensitive, and the lines in the output can be in any order.
+
+dataset = "/mnt/c/Users/pchesnokova/Desktop/dataset.txt"
+word2count = {}
+
+with open(dataset) as fh:
+    for line in fh:
+        if len(line) > 10000:
+            print("Try string with length at most 10000 letters")
+        line = line.strip().split()
+        for word in line:
+            if word not in word2count.keys():
+                word2count[word] = 1
+            else:
+                word2count[word] += 1
+
+for word, count in word2count.items():
+    print(word, count)
