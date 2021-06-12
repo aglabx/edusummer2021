@@ -1,4 +1,4 @@
-# [1. Installing Python](http://rosalind.info/problems/ini1/)
+## [1. Installing Python](http://rosalind.info/problems/ini1/)
 
 ```python
 >>> import this
@@ -26,14 +26,72 @@ Namespaces are one honking great idea -- let's do more of those!
 >>>
 ```
 
-# [2. Variables and Some Arithmetic](http://rosalind.info/problems/ini2/)
-
-Assigning reading function:
+## [2. Variables and Some Arithmetic](http://rosalind.info/problems/ini2/)
 
 ```python
-def reader(filename):
-    with open(f'{filename}.txt', 'r') as stdin, 
-    open(f'answers on {filename}.txt', 'w') as stdout:
-        
+with open(r'D:\Downloads\rosalind_ini2.txt', 'r') as fr, open('hypoth_square.txt', 'w') as fw:
+    for line in fr:
+        print(line)
+        fw.write(f'{sum(map(lambda x: int(x) ** 2, line.strip().split()))}')
+```
+
+## [3. Strings and Lists](http://rosalind.info/problems/ini3/)
+
+```python
+with open(r'D:\Downloads\rosalind_ini3.txt', 'r') as fr, open('str_list.txt', 'w') as fw:
+    string = fr.readline().strip()
+    a, b, c, d = map(int, fr.readline().strip().split())
+    fw.write(f'{string[a:b + 1]} {string[c:d + 1]}')
+```
+
+## [4. Conditions and Loops](http://rosalind.info/problems/ini4/)
+
+```python
+with open(r'D:\Downloads\rosalind_ini4.txt', 'r') as fr, open('cond_loops.txt', 'w') as fw:
+    a, b = map(int, fr.read().strip().split())
+    fw.write(f'{sum(integer for integer in range(a, b + 1) if integer % 2)}')
+```
+
+## [5. Working with Files](http://rosalind.info/problems/ini5/)
+
+```python
+with open(r'D:\Downloads\rosalind_ini5.txt', 'r') as fr, open(f'{__file__[:-3]}.txt', 'w') as fw:
+    for index, string in enumerate(fr):
+        if index % 2:
+            fw.write(string)
+```
+
+## [6. Dictionaries](http://rosalind.info/problems/ini6/)
+
+```python
+with open(r'D:\Downloads\rosalind_ini6(1).txt', 'r') as fr, open(f'{__file__[:-3]}.txt', 'w') as fw:
+    words = {}
+    for line in fr:
+        for word in line.strip().split():
+            if word in words:
+                words[word] += 1
+            else:
+                words[word] = 1
+
+    to_write = (f'{word} {words[word]}\n' for word in words)
+
+    fw.writelines(to_write)
+
+```
+
+**Можно сразу записывать без буфера:**
+
+```python
+with open(r'D:\Downloads\rosalind_ini6(1).txt', 'r') as fr, open(f'{__file__[:-3]}.txt', 'w') as fw:
+    words = {}
+    for line in fr:
+        for word in line.strip().split():
+            if word in words:
+                words[word] += 1
+            else:
+                words[word] = 1
+
+    for word, count in words.items():
+        fw.write(f'{word} {count}\n')
 ```
 
