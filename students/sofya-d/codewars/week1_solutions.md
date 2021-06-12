@@ -1,21 +1,20 @@
 #Opposite number
 def opposite(number):
-  return(-1*number)
+  return -1 * number
 
 
 #Even or odd
 def even_or_odd(number):
-    if number%2==0:
+    if number % 2 == 0:
         return('Even')
-    else:
-        return('Odd')
+    return('Odd')
 
 
 #Vowel count
 def get_count(input_str):
     num_vowels = 0
     for i in input_str:
-        if i=='a' or i=='e' or i=='i' or i=='o' or i=='u':
+        if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
             num_vowels += 1
     return num_vowels
 
@@ -26,27 +25,28 @@ def disemvowel(string_):
     c = 0
     for i in range(len(string_l)):
         if string_l[i] in 'aeiou':
-            string_ = string_[:i-c] + string_[i+1-c:]
+            string_ = string_[:i - c] + string_[i + 1 - c:]
             c += 1
     return string_
 
 
 #Get the Middle Character
 def get_middle(s):
-    if len(s)%2==0:
-        return s[len(s)//2-1]+s[len(s)//2]
+    lnth = len(s)
+    if lnth % 2 == 0:
+        return s[lnth // 2 - 1] + s[lnth // 2]
     else:
-        return s[len(s)//2]
+        return s[lnth(s) // 2]
 
 
 #All Star Code Challenge #1
 def sum_ppg(playerOne, playerTwo):
-    return playerOne['ppg'] + playerTwo['ppg']
+    return playerOne["ppg"] + payerTwo["ppg"]
 
 
 #Who likes it?
 def likes(names):
-    if len(names)==0:
+    if len(names) == 0:
         return 'no one likes this'
     elif len(names)==1:
         return names[0]+' likes this'
