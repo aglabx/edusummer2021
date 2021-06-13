@@ -32,7 +32,7 @@
 
 Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit11-yOjHrZNpi_92IMWXEmHS6w
 
-## Краткий план на этот месяц
+## Краткий план на этот месяц для первого потока
 
 **07-13.06.2021**
 
