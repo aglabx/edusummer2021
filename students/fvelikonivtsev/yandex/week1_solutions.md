@@ -106,6 +106,10 @@ sys.stdout.write(equation(a_, b_, c_))
 # [E. Скорая помощь](https://contest.yandex.ru/contest/27393/problems/E/)
 
 ```python
+import sys
+
+
+
 ```
 
 # [F. Расстановка ноутбуков](https://contest.yandex.ru/contest/27393/problems/F/)
