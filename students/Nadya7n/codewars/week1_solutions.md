@@ -95,20 +95,14 @@ def likes(names):
 
 ```python
 def array_diff(a, b):
-    new_a = []
-    for element_1 in a:
-        if element_1 in b:
-            continue
-        else:
-            new_a.append(element_1)
-    return new_a
+    return [element for element in a if not element in b]
 ```
 
 ## [3. All Star Code Challenge #22](https://www.codewars.com/kata/5865cff66b5699883f0001aa)
 
 ```python
 def to_time(seconds):
-    hours = int(seconds / 60 // 60)
-    minutes = int(seconds / 60 % 60)
+    hours = seconds // 60 // 60
+    minutes = seconds // 60 % 60
     return f"{hours} hour(s) and {minutes} minute(s)"
 ```
