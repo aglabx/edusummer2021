@@ -2,10 +2,10 @@
 
 ```python
 def opposite(number):
-    return number * -1
+    return -1 * number
 ```
 
-## [2. Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
+## [*2. Even or Odd?](https://www.codewars.com/kata/5949481f86420f59480000e7)
 
 ```python
 def odd_or_even(arr):
@@ -18,14 +18,25 @@ def odd_or_even(arr):
         return "odd"
 ```
 
+
+## [2. Even or Odd](https://www.codewars.com/kata/5949481f86420f59480000e7)
+
+```python
+def even_or_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+```
+
 ## [3. Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
 
 ```python
 def get_count(input_str):
     num_vowels = 0
-    list_of_vowels = ['a','e','i','o','u']
+    set_of_vowels = set('aeiou')
     for element in input_str:
-        if element in list_of_vowels:  
+        if element in set_of_vowels:
             num_vowels += 1
     return num_vowels
 ```
@@ -34,15 +45,13 @@ def get_count(input_str):
 
 ```python
 def disemvowel(string_):
-    list_of_vowels = ['a','e','i','o','u']
+    set_of_vowels = set('aeiou')
     new_string = []
     for element in string_:
         lower_element = element.lower()
-        if lower_element not in list_of_vowels:
+        if lower_element not in set_of_vowels:
             new_string.append(element)
-        else:
-            continue
-    new_string = "".join(new_string)
+    new_string = ''.join(new_string)
     return new_string
 ```
 
@@ -50,23 +59,19 @@ def disemvowel(string_):
 
 ```python
 def get_middle(s):
-    if len(s) % 2 == 0:
-        return s[(len(s) // 2)-1:(len(s) // 2)+1]
+    length = len(s)
+    average_index = length // 2
+    if length % 2 == 0:
+        return s[(average_index-1):(average_index+1)]
     else:
-        return s[len(s) // 2]
+        return s[average_index]
 ```
 
 ## [6. All Star Code Challenge #1](https://www.codewars.com/kata/5863f97fb3a675d9a700003f/python)
 
 ```python
 def sum_ppg(playerOne, playerTwo):
-    for key_1, value_1 in playerOne.items():
-        if key_1 == "ppg":
-            new_value_1 = value_1 
-    for key_2, value_2 in playerTwo.items():
-        if key_1 == "ppg":
-            new_value_2 = value_2
-    sum_ppg = new_value_1 + new_value_2
+    sum_ppg = playerOne["ppg"] + playerTwo["ppg"]
     return  sum_ppg
 ```
 
@@ -77,11 +82,11 @@ def likes(names):
     if not names:
         return "no one likes this"
     elif len(names) == 1:
-        return f"{names[-1]} likes this"
+        return f"{names[0]} likes this"
     elif len(names) == 2:
-        return f"{names[0]} and {names[-1]} like this"
+        return f"{names[0]} and {names[1]} like this"
     elif len(names) == 3:
-        return f"{names[0]}, {names[1]} and {names[-1]} like this"
+        return f"{names[0]}, {names[1]} and {names[2]} like this"
     else:
         return f"{names[0]}, {names[1]} and {len(names)-2} others like this"
 ```
