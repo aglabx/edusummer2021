@@ -46,13 +46,7 @@ def get_count(input_str):
 ```python
 def disemvowel(string_):
     set_of_vowels = set('aeiou')
-    new_string = []
-    for element in string_:
-        lower_element = element.lower()
-        if lower_element not in set_of_vowels:
-            new_string.append(element)
-    new_string = ''.join(new_string)
-    return new_string
+    return ''.join(element for element in string_ if element.lower() not in set_of_vowels)
 ```
 
 ## [5. Get the Middle Character](https://www.codewars.com/kata/56747fd5cb988479af000028)
@@ -81,11 +75,11 @@ def sum_ppg(playerOne, playerTwo):
 def likes(names):
     if not names:
         return "no one likes this"
-    elif len(names) == 1:
+    if len(names) == 1:
         return f"{names[0]} likes this"
-    elif len(names) == 2:
+    if len(names) == 2:
         return f"{names[0]} and {names[1]} like this"
-    elif len(names) == 3:
+    if len(names) == 3:
         return f"{names[0]}, {names[1]} and {names[2]} like this"
     else:
         return f"{names[0]}, {names[1]} and {len(names)-2} others like this"
