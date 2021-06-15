@@ -12,8 +12,8 @@ with open("rosalind_ini2.txt") as fh:
 with open("rosalind_ini3.txt") as fh:
     lines = fh.readlines()
     str = lines[0]
-    a, b, c, d = map(int, lines[1].split())
-print(f"{str[a:b+1]} {str[c:d+1]}")
+    s1, e1, s2, e2 = map(int, lines[1].split())
+print(f"{str[s1:e1+1]} {str[s2:e2+1]}")
 ```
 
 # [4. Conditions and Loops](http://rosalind.info/problems/ini4/)
