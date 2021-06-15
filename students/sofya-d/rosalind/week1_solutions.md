@@ -35,31 +35,30 @@ c = int(raw_input())
 d = int(raw_input())
 asb = s[a:(b + 1)]
 csd = s[c:(d + 1)]
-ans = asb + " " + csd
+ans = f"{asb} {csd}"
 print(ans)
 
 #Conditions and Loops
 a = int(raw_input())
 b = int(raw_input())
-lst = []
-for n in range(a, b + 1):
-    if n % 2 == 1:
-        lst.append(n)
-print(sum(lst))
+sum = 0
+for num in range(a, b + 1):
+    if num % 2 == 1:
+        sum += num
+print(sum)
 
 #Working with Files
-file = open('rosalind_ini.txt', 'r')
-lst = []
-for line in file:
-    lst.append(line)
-file = open('answer.txt', 'w')
-for i in range(len(lst)):
-    if i % 2 == 1:
-        file.write(lst[i])
-file.close()
+input_file = open('rosalind_ini.txt', 'r')
+output_file = open('answer.txt', 'w')
+count = -1
+for line in input_file:
+    count += 1
+    if count % 2 == 1:
+        output_file.write(line)
+output_file.close()
 
 #Dictionaries
-lst = raw_input().split(' ')
+lst = raw_input().split()
 dct = {}
 for s in lst:
     if s not in dct:
@@ -67,4 +66,4 @@ for s in lst:
     else:
         dct[s] += 1
 for key in dct:
-    print key, dct[key]
+    print(key, dct[key])
