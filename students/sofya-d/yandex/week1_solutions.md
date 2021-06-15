@@ -1,5 +1,5 @@
 #Верно решено всего 2 задачи
-#Кондиционер
+#Кондиционер (верно)
 t = input().split()
 m = input()
 t[0] = int(t[0])
@@ -9,31 +9,27 @@ if (m == 'freeze' and t[0] > t[1]) or (m == 'heat' and t[0] < t[1]) or (m == 'au
 else:
     print(t[0])
 
-#Треугольник
+#Треугольник (верно)
 a = int(input())
 b = int(input())
 c = int(input())
-if (a + b > c) and (a + c > b) and (b + c > a):
+if a + b > c and a + c > b and b + c > a:
     print("YES")
 else:
     print("NO")
 
-#Телефонные номера (WA, тест 1, не понимаю условие)
-n1 = input()
-n2 = input()
-n3 = input()
-new = input()
+#Телефонные номера (WA, тест 1)
+n1 = ''.join(list(filter(lambda x: x not in ')(-+', input())))
+n2 = ''.join(list(filter(lambda x: x not in ')(-+', input())))
+n3 = ''.join(list(filter(lambda x: x not in ')(-+', input())))
+new = ''.join(list(filter(lambda x: x not in ')(-+', input())))
 n = [n1, n2, n3, new]
 ed = []
 for str in n:
-    str = str.replace("(", "")
-    str = str.replace(")", "")
-    str = str.replace("+", "")
-    str = str.replace("-", "")
     if len(str) == 11:
         str = str[1:len(str)]
     else:
-        str = "495" + str
+        str = f"495{str}"
     ed.append(str)
 for i in range(len(ed) - 1):
     if ed[3] in ed[i]:
@@ -48,23 +44,26 @@ c = int(input())
 if c < 0:
     print("NO SOLUTION")
 else:
-    x = (c ** 2 - b) / a
-    if ((a * x + b) >= 0) and ((a * x + b) ** 0.5 == c):
-        print(int(x))
+    if a == 0 and b >= 0 and b ** 0.5 == c:
+        print("MANY SOLUTIONS")
+    if a == 0 and (b < 0 or b ** 0.5 != c):
+        print("NO SOLUTIONS")
     else:
-        print("NO SOLUTION")
+        x = (c ** 2 - b) / a
+        if (a * x + b) >= 0 and (a * x + b) ** 0.5 == c:
+            if x == 0.0:
+                print(int(x))
+            elif x != 0.0 and abs(x % int(x)) == 0.0:
+                print(int(x))
+            else:
+                print("NO SOLUTION")
 
-#Скорая помощь (не понимаю условие)
-input = [int(i) for i in input().split(' ')]
-kv1 = input[0]
-et = input[1]
-kv2 = input[2]
-pod2 = input[3]
-et2 = input[4]
-if kv2%(et2 + et * (pod2-1)) > 0:
-    pl = kv2 // (et2 + et * (pod2-1)) + 1
+#Скорая помощь (не сходятся ответы с ответами из примеров)
+kv1, et, kv2, pod2, et2 = map(lambda x: int(x), input().split())
+if kv2 % (et2 + et * (pod2 - 1)) > 0:
+    pl = kv2 // (et2 + et * (pod2 - 1)) + 1
 else:
-    pl = kv2//(et2 + et * (pod2-1))
+    pl = kv2 // (et2 + et * (pod2 - 1))
 if kv1 % pl > 0:
     vet1 = kv1 // pl + 1
 else:
@@ -84,49 +83,49 @@ print(pod1, et1)
 
 #Расстановка ноутбуков (WA, тест 3)
 inp = [int(c) for c in input().split(' ')]
-ss = inp[0] * inp[1] + inp[2] * inp[3]
+S_laptops = inp[0] * inp[1] + inp[2] * inp[3]
 a = 0
 b = 0
-gr1 = max([min(inp[0:2]), min(inp[2:4])])
-gr2 = max(inp[0:2]) + max(inp[2:4]) + 1
-m = range(gr1, gr2)
+table_side1 = max([min(inp[0:2]), min(inp[2:4])])
+table_side2 = max(inp[0:2]) + max(inp[2:4]) + 1
+m = range(table_side1, table_side2)
 for i in range(len(m)):
     a = m[i]
     for j in range(len(m)):
         b = m[j]
-        if a * b >= ss:
+        if a * b >= S_laptops:
             break
     break
 print(a, b)
 
 #Детали (TL, тест 14)
-lst = [int(n) for n in input().split(' ')]
+weight = [int(n) for n in input().split(' ')]
 d = 0
 while lst[0] >= lst[1]:
-    nok = lst[0] % lst[1]
-    ck = lst[0] // lst[1]
-    kom = (lst[1] % lst[2]) * ck
-    cm = (lst[1] // lst[2]) * ck
+    nok = weight[0] % weight[1]
+    ck = weight[0] // weight[1]
+    kom = (weight[1] % weight[2]) * ck
+    cm = (weight[1] // weight[2]) * ck
     d += cm
     lst[0] = nok + kom
 print(d)
 
 #Метро (ответ не сходится с ответом из примера, WA тест 1)
-a = int(input())
-b = int(input())
-n = int(input())
-m = int(input())
-min1 = a * n - a + n
-max1 = a * n + 2 * a + n
-min2 = b * m - b + m
-max2 = b * m + 2 * b + m
-a = []
-b = []
-for k in range(min1, max1 + 1):
-    a.append(k)
-for l in range(min2, max2 + 1):
-    b.append(l)
-if len(list(set(a) & set(b))) == 0:
+train_int_path1 = int(input())
+train_int_path2 = int(input())
+trains_path1 = int(input())
+trains_path2 = int(input())
+min1 = train_int_path1 * trains_path1 - train_int_path1 + trains_path1
+max1 = train_int_path1 * trains_path1 + 2 * train_int_path1 + trains_path1
+min2 = train_int_path2 * trains_path2 - train_int_path2 + trains_path2
+max2 = train_int_path2 * trains_path2 + 2 * train_int_path2 + trains_path2
+time_path1 = []
+time_path2 = []
+for time1 in range(min1, max1 + 1):
+    time_path1.append(time1)
+for time2 in range(min2, max2 + 1):
+    time_path2.append(time2)
+if len(list(set(time_path1) & set(time_path2))) == 0:
     print(-1)
 else:
     print(max([min1, min2]), min([max1, max2]))
@@ -137,19 +136,19 @@ b = input()
 c = input()
 d = input()
 e = input()
-blck = [a, b, c]
-hl = [d, e]
-s = []
-for bs in blck:
-    for hs in hl:
-        if bs <= hs:
-            s.append(bs)
-if len(s) >= 2:
+block = [a, b, c]
+hole = [d, e]
+small_bsides = []
+for bside in block:
+    for hside in hole:
+        if bside <= hside:
+            small_bsides.append(bside)
+if len(small_bsides) >= 2:
     print("YES")
 else:
     print("NO")
 
-#Система линейных уравнений - 2 (WA, тест1, есть вопросы по аутпуту)
+#Система линейных уравнений - 2 (WA, тест1)
 a = float(input())
 b = float(input())
 c = float(input())
