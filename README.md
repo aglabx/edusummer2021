@@ -45,7 +45,9 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 | Adeliia-K | 6 | 2 | 1 | 7/16 |
 | sofya-d | 6 | 54 | 10 | 16/16 |
 | Nadya7n | 6 | 56 | 11 | 16/16 |
-| iuliiasavina | 6 | 4 | 1 | 7/16 |
+| lavrentiy-danilov | 15 | 54 | 10 | 6/16 |
+| Abusagit | None | 82 | 15 | 0/16 |
+| iuliiasavina | 6 | 4 | 1 | 6/16 |
 </div>
 
 ## Краткий план на этот месяц для первого потока
