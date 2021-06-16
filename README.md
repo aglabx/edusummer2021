@@ -35,6 +35,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 ## Прогресс первого потока
 
 <div class="heatMap">
+ 
 | User | Rosalind | Codewar Score | Codewar solved | Status | Comments |
 | -- | -- | -- | -- | -- | -- |
 | ochkalova | None | 4 | 2 | 2/16 | 0 |
