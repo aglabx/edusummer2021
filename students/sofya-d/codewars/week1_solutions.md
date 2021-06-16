@@ -6,8 +6,8 @@ def opposite(number):
 #Even or odd
 def even_or_odd(number):
     if number % 2 == 0:
-        return("Even")
-    return("Odd")
+        return "Even"
+    return "Odd"
 
 
 #Vowel count
@@ -22,7 +22,7 @@ def get_count(str):
 
 #Disemvowel Trolls
 def disemvowel(str):
-    return ''.join(list(filter(lambda x: x.lower() not in 'aeiou', str)))
+    return "".join([x for x in str if not x in "aeiou"])
 
 
 #Get the Middle Character
@@ -55,8 +55,7 @@ def likes(names):
 
 #Array.diff
 def array_diff(a, b):
-    answer = [num for num in a if num not in b]
-    return answer
+    return [num for num in a if num not in b]
 
 
 #All Star Code Challenge #22
