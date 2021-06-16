@@ -48,22 +48,16 @@ for num in range(a, b + 1):
 print(sum)
 
 #Working with Files
-input_file = open('rosalind_ini.txt', 'r')
-output_file = open('answer.txt', 'w')
-count = -1
-for line in input_file:
-    count += 1
-    if count % 2 == 1:
-        output_file.write(line)
-output_file.close()
+with open('rosalind_ini.txt', 'r') as input_file, open('answer.txt', 'w') as output_file:
+    count = -1
+    for line in input_file:
+        count += 1
+        if count % 2 == 1:
+            output_file.write(line)
 
 #Dictionaries
-lst = raw_input().split()
-dct = {}
-for s in lst:
-    if s not in dct:
-        dct[s] = 1
-    else:
-        dct[s] += 1
-for key in dct:
-    print(key, dct[key])
+data = input().split()
+from collections import Counter
+data = dict(Counter(data))
+for key in data:
+    print(key, data[key])
