@@ -35,19 +35,18 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 ## Прогресс первого потока
 
 <div class="heatMap">
-
-| User | Rosalind | Codewar Score | Codewar solved | Status |
-| -- | -- | -- | -- | -- |
-| ochkalova | None | 4 | 2 | 2/16 |
-| tniapp | 22 | 54 | 10 | 16/16 |
-| KoptelovaEkaterina | 5 | 4 | 1 | 6/16 |
-| Chaotic-algorithm | 16 | 63 | 11 | 16/16 |
-| Adeliia-K | 6 | 2 | 1 | 7/16 |
-| sofya-d | 6 | 54 | 10 | 16/16 |
-| Nadya7n | 6 | 56 | 11 | 16/16 |
-| lavrentiy-danilov | 15 | 54 | 10 | 6/16 |
-| Abusagit | 22 | 82 | 15 | 6/16 |
-| iuliiasavina | 6 | 4 | 1 | 6/16 |
+| User | Rosalind | Codewar Score | Codewar solved | Status | Comments |
+| -- | -- | -- | -- | -- | -- |
+| ochkalova | None | 4 | 2 | 2/16 | 0 |
+| tniapp | 22 | 54 | 10 | 16/16 | 9 |
+| KoptelovaEkaterina | 5 | 4 | 1 | 6/16 | 7 |
+| Chaotic-algorithm | 16 | 63 | 11 | 16/16 | 32 |
+| Adeliia-K | 6 | 2 | 1 | 7/16 | 0 |
+| sofya-d | 6 | 54 | 10 | 16/16 | 38 |
+| Nadya7n | 6 | 56 | 11 | 16/16 | 39 |
+| lavrentiy-danilov | 15 | 54 | 10 | 6/16 | 36 |
+| Abusagit | 22 | 82 | 15 | 6/16 | 33 |
+| iuliiasavina | 6 | 4 | 1 | 6/16 | 21 |
 </div>
 
 ## Краткий план на этот месяц для первого потока
