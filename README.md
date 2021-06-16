@@ -32,6 +32,22 @@
 
 Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit11-yOjHrZNpi_92IMWXEmHS6w
 
+## Прогресс первого потока
+
+<div class="heatMap">
+
+| User | Rosalind | Codewar Score | Codewar solved | Status |
+| -- | -- | -- | -- | -- |
+| ochkalova | None | 4 | 2 | 2/16 |
+| tniapp | 22 | 54 | 10 | 16/16 |
+| KoptelovaEkaterina | 5 | 4 | 1 | 6/16 |
+| Chaotic-algorithm | 16 | 63 | 11 | 16/16 |
+| Adeliia-K | 6 | 2 | 1 | 7/16 |
+| sofya-d | 6 | 54 | 10 | 16/16 |
+| Nadya7n | 6 | 56 | 11 | 16/16 |
+| iuliiasavina | 6 | 4 | 1 | 7/16 |
+</div>
+
 ## Краткий план на этот месяц для первого потока
 
 **07-13.06.2021**
