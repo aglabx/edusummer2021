@@ -46,3 +46,12 @@ for line in lines[1::2]:
     print(line)
 f.close()
 ```
+## [6. Dictionaries](http://rosalind.info/problems/ini6/) 
+
+```python
+s = input()
+s = s.split()
+unique = dict(zip(list(s),[list(s).count(i) for i in list(s)]))
+for key in unique.keys(): 
+    print(key,unique[key])
+``` 
