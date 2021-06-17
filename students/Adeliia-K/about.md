@@ -6,4 +6,6 @@
 
 Мой Codingame: https://www.codingame.com/profile/79a6866dbd80bee29bf211bf3e235b1b4830834
 
+Мой Stepik: https://stepik.org/users/294126031 
+
 
