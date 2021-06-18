@@ -18,7 +18,9 @@ def even_or_odd(number):
 ## [3. Vowel Count]()
 
 ```python
-
+def get_count(input_str):
+    vowels = ["a", "e", "i", "o", "u"]
+    return sum((input_str.count(i) for i in vowels))
 ```
 
 ## [4. Disemvowel Trolls]()
@@ -36,14 +38,19 @@ def disemvowel(string_):
 ## [5. Get the Middle Character]()
 
 ```python
-
+def get_middle(s):
+    if len(s) % 2 == 0:
+        return s[len(s) // 2 - 1: len(s) // 2 + 1]
+    elif len(s) % 2 == 1:
+        return s[len(s) // 2]
+    return 
 ```
 
 ## [6. All Star Code Challenge #1]()
 
 ```python
-
-
+def sum_ppg(playerOne, playerTwo):
+    return playerOne['ppg'] + playerTwo['ppg']
 ```
 
 ## [1. Who likes it?]()
