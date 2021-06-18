@@ -43,17 +43,23 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
  
 | User | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
-| ochkalova | 6 | 52 | 10 | 16/16 | 0 | OK |
-| tniapp | 22 | 54 | 10 | 16/16 | 9 | - |
-| KoptelovaEkaterina | 6 | 4 | 1 | 7/16 | 7 | 0.5 | 
-| Chaotic-algorithm | 16 | 63 | 11 | 16/16 | 32 | OK |
-| Adeliia-K | 6 | 2 | 1 | 7/16 | 0 | 0.5 |
-| sofya-d | 6 | 54 | 10 | 16/16 | 38 | - |
-| Nadya7n | 6 | 56 | 11 | 16/16 | 39 | OK |
-| lavrentiy-danilov | 15 | 54 | 10 | 16/16 | 36 | OK |
-| Abusagit | 22 | 82 | 15 | 16/16 | 33 | OK |
-| iuliiasavina | 6 | 4 | 1 | 16/16 | 21 | OK |
+| ochkalova | 6 | 52 | 10 | 16/16 | 0 | 0/3 |
+| tniapp | 22 | 54 | 10 | 16/16 | 9 | 0/3 |
+| KoptelovaEkaterina | 6 | 4 | 1 | 7/16 | 7 | 0/3 | 
+| Chaotic-algorithm | 16 | 63 | 11 | 16/16 | 32 | 0/3 |
+| Adeliia-K | 6 | 2 | 1 | 7/16 | 0 | 0/3 |
+| sofya-d | 6 | 54 | 10 | 16/16 | 38 | 0/3 |
+| Nadya7n | 6 | 56 | 11 | 16/16 | 39 | 0/3 |
+| lavrentiy-danilov | 15 | 54 | 10 | PASS | 36 | 1/3 |
+| Abusagit | 22 | 82 | 15 | PASS | 33 | 1/3 |
+| iuliiasavina | 6 | 4 | 1 | PASS | 21 | 1/3 |
 </div>
+
+Условия прохождения этого спринта:
+
+1. Решить 6 задачек на розалинде.
+2. Решить 10 задачек на codewars.
+3. Сделать файл с терминами по второй главе Кунина.
 
 ## Краткий план на этот месяц для первого потока
 
