@@ -41,7 +41,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 <div class="heatMap">
  
-| User | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
+| Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
 | ochkalova | 6 | 52 | 10 | 16/16 | 0 | 0/3 |
 | tniapp | 22 | 54 | 10 | 16/16 | 9 | 0/3 |
