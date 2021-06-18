@@ -54,7 +54,7 @@ for num in nums:
 ```
 
 
-## [3. Расстановка ноутбуков](https://contest.yandex.ru/contest/27393/problems/F/)
+## [4. Расстановка ноутбуков](https://contest.yandex.ru/contest/27393/problems/F/)
 
 ```python
 len1, wid1, len2, wid2 = (int(i) for i in input().split())
