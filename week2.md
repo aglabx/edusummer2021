@@ -67,4 +67,4 @@ def even_or_odd(number):
 9. Base Quality Distribution http://rosalind.info/problems/bphr/
 10. Base Filtration by Quality http://rosalind.info/problems/bfil/
 
-## Начинаем пробовать писать сортировки.
+
