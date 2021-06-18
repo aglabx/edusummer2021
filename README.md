@@ -273,7 +273,7 @@ def sum_ppg(playerOne, playerTwo):
 
 На примере первой недели:
 
-1. Путь к файлу должен быть вида **edusummer2021/students/<your gtihub name>/codewars/week1_solutions.md**
+1. Путь к файлу должен быть вида **edusummer2021/students/\<your gtihub name\>/codewars/week1_solutions.md**
 2. Файлы должны быть у правильное ветке week1 или week2 и тд.
 
 Markdown файл должен быть следующего вида
