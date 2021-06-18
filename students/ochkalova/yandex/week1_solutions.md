@@ -52,3 +52,31 @@ for num in nums:
 	else:
 		print("NO")
 ```
+
+
+## [3. Расстановка ноутбуков](https://contest.yandex.ru/contest/27393/problems/F/)
+
+```python
+len1, wid1, len2, wid2 = (int(i) for i in input().split())
+
+answer = (wid1 + wid2) * max(len1, len2)
+sides = str(wid1 + wid2) + " " + str(max(len1, len2))
+
+
+square1 = (wid1 + len2) * max(len1, wid2)
+if square1 < answer:
+	answer = square1
+	sides = str(wid1 + len2) + " " + str(max(len1, wid2))
+
+square2 = (len1 + wid2) * max(wid1, len2)
+if square2 < answer:
+	answer = square2
+	sides = str(len1 + wid2) + " " + str(max(wid1, len2))
+
+square3 = (len1 + len2) * max(wid1, wid2)
+if square3 < answer:
+	answer = square3
+	sides = str(len1 + len2) + " " + str(max(wid1, wid2))
+
+print(sides)
+```
