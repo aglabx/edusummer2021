@@ -1,5 +1,7 @@
-#Installing Python
-The Zen of Python, by Tim Peters
+# 1. Installing Python.
+
+```python
+"The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
 Explicit is better than implicit.
@@ -19,15 +21,21 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
+Namespaces are one honking great idea -- let's do more of those!"
+```
 
-#Variables and Some Arithmetic
+# 2. Variables and Some Arithmetic.
+
+```python
 a = int(input())
 b = int(input())
 square_c = a ** 2 + b ** 2
 print(square_c)
+```
 
-#Strings and Lists
+# 3. Strings and Lists.
+
+```python
 s = raw_input()
 a = int(raw_input())
 b = int(raw_input())
@@ -37,8 +45,11 @@ asb = s[a:(b + 1)]
 csd = s[c:(d + 1)]
 ans = f"{asb} {csd}"
 print(ans)
+```
 
-#Conditions and Loops
+# 4. Conditions and Loops.
+
+```python
 a = int(raw_input())
 b = int(raw_input())
 sum = 0
@@ -46,18 +57,25 @@ for num in range(a, b + 1):
     if num % 2 == 1:
         sum += num
 print(sum)
+```
 
-#Working with Files
+# 5. Working with Files.
+
+```python
 with open('rosalind_ini.txt', 'r') as input_file, open('answer.txt', 'w') as output_file:
     count = -1
     for line in input_file:
         count += 1
         if count % 2 == 1:
             output_file.write(line)
+```
 
-#Dictionaries
+# 6. Dictionaries.
+
+```python
 data = input().split()
 from collections import Counter
 data = dict(Counter(data))
 for key in data:
     print(key, data[key])
+```
