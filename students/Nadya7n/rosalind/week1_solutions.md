@@ -1,4 +1,4 @@
-# [2. Variables and Some Arithmetic](http://rosalind.info/problems/ini2/)
+# 2. Variables and Some Arithmetic. [Link](http://rosalind.info/problems/ini2/)
 
 ```python
 with open("rosalind_ini2.txt") as fh:
@@ -6,7 +6,7 @@ with open("rosalind_ini2.txt") as fh:
     print(a**2 + b**2)
 ```
 
-# [3. Strings and Lists](http://rosalind.info/problems/ini3/)
+# 3. Strings and Lists. [Link](http://rosalind.info/problems/ini3/)
 
 ```python
 with open("rosalind_ini3.txt") as fh:
@@ -16,7 +16,7 @@ with open("rosalind_ini3.txt") as fh:
 print(f"{str[s1:e1+1]} {str[s2:e2+1]}")
 ```
 
-# [4. Conditions and Loops](http://rosalind.info/problems/ini4/)
+# 4. Conditions and Loops [Link](http://rosalind.info/problems/ini4/)
 
 ```python
 with open("rosalind_ini4.txt") as fh:
@@ -28,7 +28,7 @@ for i in range(a, b+1):
 print(summa)
 ```
 
-# [5. Working with Files](http://rosalind.info/problems/ini5/)
+# 5. Working with Files. [Link](http://rosalind.info/problems/ini5/)
 
 ```python
 with open('rosalind_ini5.txt')as fh:
@@ -37,7 +37,7 @@ with open('rosalind_ini5.txt')as fh:
             print(line)
 ```
 
-# [6. Dictionaries](http://rosalind.info/problems/ini6/)
+# 6. Dictionaries. [Link](http://rosalind.info/problems/ini6/)
 
 ```python
 from collections import Counter
