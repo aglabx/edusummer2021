@@ -1,4 +1,4 @@
-## [1. Кондиционер](https://contest.yandex.ru/contest/27393/problems/A/)
+# 1. Кондиционер. [Link](https://contest.yandex.ru/contest/27393/problems/A/)
 
 ```python
 temparature = input()
@@ -21,7 +21,7 @@ else:
 print(output)
 ```
 
-## [2. Треугольник](https://contest.yandex.ru/contest/27393/problems/B/)
+# 2. Треугольник. [Link](https://contest.yandex.ru/contest/27393/problems/B/)
 
 ```python
 a = int(input())
@@ -34,7 +34,7 @@ else:
     print("NO")
 ```
 
-## [3. Телефонные номера](https://contest.yandex.ru/contest/27393/problems/C/)
+# 3. Телефонные номера. [Link](https://contest.yandex.ru/contest/27393/problems/C/)
 
 ```python
 import re
@@ -69,7 +69,7 @@ is_or_not(normal_len(number_2))
 is_or_not(normal_len(number_3))
 ```
 
-## [4. Уравнение с корнем](https://contest.yandex.ru/contest/27393/problems/D/)
+# 4. Уравнение с корнем. [Link](https://contest.yandex.ru/contest/27393/problems/D/)
 
 ```python
 from math import sqrt
