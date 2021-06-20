@@ -16,7 +16,7 @@ with open("rosalind_ini3.txt") as fh:
 print(f"{str[s1:e1+1]} {str[s2:e2+1]}")
 ```
 
-# 4. Conditions and Loops [Link](http://rosalind.info/problems/ini4/)
+# 4. Conditions and Loops. [Link](http://rosalind.info/problems/ini4/)
 
 ```python
 with open("rosalind_ini4.txt") as fh:
