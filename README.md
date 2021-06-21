@@ -53,7 +53,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
  
 | Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
-| ochkalova | 6 | 52 | 10 | PASS | 0 | 0/1 |
+| ochkalova | 6 | 52 | 10 | PASS | 0 | 1/1 |
 | tniapp | 22 | 54 | 10 | NOPE | 9 | 0/1 |
 | KoptelovaEkaterina | 6 | 4 | 1 | NOPE | 7 | 0/1 | 
 | Chaotic-algorithm | 16 | 63 | 11 | PASS | 32 | 1/1 |
