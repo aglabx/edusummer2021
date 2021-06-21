@@ -43,13 +43,13 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
  
 | Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
-| ochkalova | 6 | 52 | 10 | 16/16 | 0 | 0/3 |
-| tniapp | 22 | 54 | 10 | 16/16 | 9 | 0/3 |
-| KoptelovaEkaterina | 6 | 4 | 1 | 7/16 | 7 | 0/3 | 
-| Chaotic-algorithm | 16 | 63 | 11 | 16/16 | 32 | 0/3 |
-| Adeliia-K | 6 | 2 | 1 | 7/16 | 0 | 0/3 |
-| sofya-d | 6 | 54 | 10 | 16/16 | 38 | 0/3 |
-| Nadya7n | 6 | 56 | 11 | 16/16 | 39 | 0/3 |
+| ochkalova | 6 | 52 | 10 | PASS | 0 | 0/3 |
+| tniapp | 22 | 54 | 10 | NOPE | 9 | 0/3 |
+| KoptelovaEkaterina | 6 | 4 | 1 | NOPE | 7 | 0/3 | 
+| Chaotic-algorithm | 16 | 63 | 11 | PASS | 32 | 0/3 |
+| Adeliia-K | 6 | 2 | 1 | NOPE | 0 | 0/3 |
+| sofya-d | 6 | 54 | 10 | PASS | 38 | 0/3 |
+| Nadya7n | 6 | 56 | 11 | PASS | 39 | 0/3 |
 | lavrentiy-danilov | 15 | 54 | 10 | PASS | 36 | 1/3 |
 | Abusagit | 22 | 82 | 15 | PASS | 33 | 1/3 |
 | iuliiasavina | 6 | 4 | 1 | PASS | 21 | 1/3 |
