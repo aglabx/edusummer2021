@@ -45,7 +45,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 | Chaotic-algorithm | 0/10 | 63 | 0/10 | PASS | 32 | 0/3 |
 | sofya-d | 0/10 | 54 | 0/10 | PASS | 0 | 0/3 |
 | Nadya7n | 0/10 | 56 | 0/10 | PASS | 0 | 0/3 |
-| lavrentiy-danilov | 0/10 | 0/10 | 0 | PASS | 36 | 0/3 |
+| lavrentiy-danilov | 0/10 | 54 | 0/10 | PASS | 36 | 0/3 |
 | Abusagit | 0/10 | 82 | 0/10 | PASS | 0 | 0/3 |
 | iuliiasavina | 0/10 | 4 | 0/10 | PASS | 0 | 0/3 |
 
