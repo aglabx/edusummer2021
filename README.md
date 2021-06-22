@@ -26,7 +26,7 @@
 
 ## Старт ближайщего потока (\#поток2)
 
-Мы спланируем стартовать второй поток **21 июня 2021**.
+Мы спланируем стартовать второй поток **28 июня 2021**.
 Уже с учетом ошибок первого потока.
 
 ## Как присоединиться
@@ -37,23 +37,32 @@
 
 Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit11-yOjHrZNpi_92IMWXEmHS6w
 
-## Прогресс первого потока
+## Прогресс первого потока, второй спринт
 
-<div class="heatMap">
+| Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
+| -- | -- | -- | -- | -- | -- | -- |
+| ochkalova | 0/10 | 52 | 0/10 | PASS | 0 | 0/3 |
+| Chaotic-algorithm | 0/10 | 63 | 0/10 | PASS | 32 | 0/3 |
+| sofya-d | 0/10 | 54 | 0/10 | PASS | 0 | 0/3 |
+| Nadya7n | 0/10 | 56 | 0/10 | PASS | 0 | 0/3 |
+| lavrentiy-danilov | 0/10 | 54 | 0/10 | PASS | 36 | 0/3 |
+| Abusagit | 0/10 | 82 | 0/10 | PASS | 0 | 0/3 |
+| iuliiasavina | 0/10 | 4 | 0/10 | PASS | 0 | 0/3 |
+
+## Результаты первого потока, первый спринт
  
 | Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
-| ochkalova | 6 | 52 | 10 | 16/16 | 0 | 0/3 |
-| tniapp | 22 | 54 | 10 | 16/16 | 9 | 0/3 |
-| KoptelovaEkaterina | 6 | 4 | 1 | 7/16 | 7 | 0/3 | 
-| Chaotic-algorithm | 16 | 63 | 11 | 16/16 | 32 | 0/3 |
-| Adeliia-K | 6 | 2 | 1 | 7/16 | 0 | 0/3 |
-| sofya-d | 6 | 54 | 10 | 16/16 | 38 | 0/3 |
-| Nadya7n | 6 | 56 | 11 | 16/16 | 39 | 0/3 |
-| lavrentiy-danilov | 15 | 54 | 10 | PASS | 36 | 1/3 |
-| Abusagit | 22 | 82 | 15 | PASS | 33 | 1/3 |
-| iuliiasavina | 6 | 4 | 1 | PASS | 21 | 1/3 |
-</div>
+| ochkalova | 6 | 52 | 10 | PASS | 0 | 1/1 |
+| tniapp | 22 | 54 | 10 | NOPE | 9 | 0/1 |
+| KoptelovaEkaterina | 6 | 4 | 1 | NOPE | 7 | 0/1 | 
+| Chaotic-algorithm | 16 | 63 | 11 | PASS | 32 | 1/1 |
+| Adeliia-K | 6 | 2 | 1 | NOPE | 0 | 0/1 |
+| sofya-d | 6 | 54 | 10 | PASS | 38 | 1/1 |
+| Nadya7n | 6 | 56 | 11 | PASS | 39 | 1/1 |
+| lavrentiy-danilov | 15 | 54 | 10 | PASS | 36 | 1/1 |
+| Abusagit | 22 | 82 | 15 | PASS | 33 | 1/1 |
+| iuliiasavina | 6 | 4 | 1 | PASS | 21 | 1/1 |
 
 Условия прохождения этого спринта:
 
