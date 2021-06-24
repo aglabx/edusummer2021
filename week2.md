@@ -44,14 +44,80 @@ def even_or_odd(number):
   
 ## Биологические форматы данных.
   
+Ccылка тут: https://github.com/aglabx/edusummer2021/blob/main/biological_formats.md
+
 ## Работа с табличными файлами.
 
 ## Пишем свой парсер фасты.
 
-## Пишем свой парсер gbff (со зведочкой).
+Сделайте папочку playgroung, мы в ней начнем писать вашу лучную библиотеку для биоинформатики.
+  
+Задача реализовать следующее решение, файл **playgroung/fasta_reader.py**:
+  
+```python
+  
+def stupid_fasta_reader(fasta_file_name):
+    """ Write here the correct doc string.
+    """
+    sequences = []
+    ...
+    return sequences
 
+def iter_fasta_file(fasta_file_name):
+    """ Write here the correct doc string.
+    """
+    ...
+    yield header, sequence
+  
+  
+class FastaData:
+    ...
+    def _parse_header(self):
+        """ Write here the correct doc string.
+        """
+        ...
+    ...
+
+def iter_fasta_objects(fasta_file_name):
+    """ Write here the correct doc string.
+    """
+    ...
+    seq_obj = FastaData...
+    ...
+    yield seq_obj
+ 
+```
+  
+Написать абстрактный ридер блочных файлов на основе кода фаста ридера с классами и без, файл **playgroung/block_reader.py**.
+  
+```python
+
+class BlockData:
+  
+def iter_block_objects(blocks_file_name, new_block_symbol):
+    """ Write here the correct doc string.
+    """
+    ...
+    block_obj = BlockData...
+    ...
+    yield block_obj
+  
+```
+  
+Перепишите Fasta класс в виде, тоже в файле **playgroung/fasta_reader.py**:
+  
+```python
+class FastaData(BlockData):
+    ...
+```
+
+  
+## Пишем свой парсер gbff (со зведочкой).
+  
 ## Вторая глава Кунина.
 
+Во-первых, нужно пройти тест по первой главе Кунина.
+  
 ## Начинаем штурмовать биологическую часть Розалинда.
   
 Задачки на эту неделю:
@@ -73,7 +139,8 @@ def even_or_odd(number):
   
 Для каждой задачки нужно попробовать оценить сложность время/память. 
   
-Статья вам в помощь https://habr.com/ru/post/444594/, кроме этого первая лекция яндекса. Вы же я надеюсь их смотрите?
+Статья вам в помощь https://habr.com/ru/post/444594/ и тут https://www.programiz.com/dsa/asymptotic-notations, 
+кроме этого первая лекция яндекса. Вы же я надеюсь их смотрите?
   
 ### 2.1. Human Readable Time kyu5
 
