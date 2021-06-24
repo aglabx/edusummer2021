@@ -290,3 +290,8 @@ https://www.codewars.com/kata/530e15517bc88ac656000716
 
 ### 2.11. Strip Comments kyu4
 https://www.codewars.com/kata/51c8e37cee245da6b40000bd
+
+  
+## Вторая неделя яндекса (ползвёздочки)
+  
+Попробуйте решить их. Они значительно проще чем первая неделя.
