@@ -94,8 +94,7 @@ def iter_fasta_objects(fasta_file_name):
 ```python
 
 class BlockData:
-  
-
+  ...
   def iter_block_objects(blocks_file_name, new_block_symbol):
     """ Write here the correct doc string.
     """
