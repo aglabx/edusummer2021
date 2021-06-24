@@ -69,38 +69,38 @@ def even_or_odd(number):
 
 ## Задачки с codewars для разогрева
  
-### 2.1. Human Readable Time 5
-Функция принимает в себя количество секунд и возвращает человекочитаемое время (HH:MM:SS)  
+### 2.1. Human Readable Time kyu5
+
 https://www.codewars.com/kata/52685f7382004e774f0001f7/train/python
 
-### 2.2. Isograms 7
+### 2.2. Isograms kyu7
 https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/python
 
-### 2.3. Categorize New Member
+### 2.3. Categorize New Member kyu7
 https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/python
 
-### 2.4. Vasya - Clerk
+### 2.4. Vasya - Clerk kyu6
 https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8/train/python
 
-### 2.5. The Supermarket Queue 6
+### 2.5. The Supermarket Queue kyu6
 https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
 ## Задачки с codewars по теме работа с циклами
 
-### 2.6. Sum of a sequence
+### 2.6. Sum of a sequence kyu7
 https://www.codewars.com/kata/586f6741c66d18c22800010a
 
-### 2.7. Sum of a Beach
+### 2.7. Sum of a Beach kyu7
 https://www.codewars.com/kata/5b37a50642b27ebf2e000010
 
-### 2.8. Alphabet war
+### 2.8. Alphabet war kyu7
 https://www.codewars.com/kata/59377c53e66267c8f6000027
 
-### 2.9. Create Phone Number
-https://www.codewars.com/kata/59377c53e66267c8f6000027
+### 2.9. Create Phone Number kyu6
+https://www.codewars.com/kata/525f50e3b73515a6db000b83
 
-### 2.10. Rot13 5
+### 2.10. Rot13 kyu5
 https://www.codewars.com/kata/530e15517bc88ac656000716
 
-### 2.11. Strip Comments 4
+### 2.11. Strip Comments kyu4
 https://www.codewars.com/kata/51c8e37cee245da6b40000bd
