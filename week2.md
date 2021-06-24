@@ -105,7 +105,7 @@ class BlockData:
     yield block_obj
 
 
-def iter_ block_file(blocks_file_name, new_block_symbol):
+def iter_block_file(blocks_file_name, new_block_symbol):
     """ Write here the correct doc string.
     """
     ...
