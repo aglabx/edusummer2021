@@ -46,8 +46,6 @@ def even_or_odd(number):
   
 Ccылка тут: https://github.com/aglabx/edusummer2021/blob/main/biological_formats.md
 
-## Работа с табличными файлами.
-
 ## Пишем свой парсер фасты.
 
 Сделайте папочку playgroung, мы в ней начнем писать вашу лучную библиотеку для биоинформатики.
@@ -95,13 +93,15 @@ def iter_fasta_objects(fasta_file_name):
 
 class BlockData:
   ...
-  def iter_block_objects(blocks_file_name, new_block_symbol):
-    """ Write here the correct doc string.
-    """
-    ...
-    block_obj = BlockData...
-    ...
-    yield block_obj
+  
+  
+def iter_block_objects(blocks_file_name, new_block_symbol):
+  """ Write here the correct doc string.
+  """
+  ...
+  block_obj = BlockData...
+  ...
+  yield block_obj
 
 
 def iter_block_file(blocks_file_name, new_block_symbol):
@@ -111,15 +111,121 @@ def iter_block_file(blocks_file_name, new_block_symbol):
     yield header, data
 ```
   
-Перепишите Fasta класс в виде, тоже в файле **playgroung/fasta_reader.py**:
+Перепишите FastaData класс наследовав его от BlockData, тоже в файле **playgroung/fasta_reader.py**:
   
 ```python
 class FastaData(BlockData):
     ...
 ```
 
+Теперь у нас есть всё, чтобы легко написать парсер для FastQ файла, сначала напишите решение в лоб, а потом напишите красивый класс.
+  
+Это будет основой следующего спринта, когда будем FastQC свой писать, чтобы разобраться в его самых страшных секретах, файл **playgroung/fastq_reader.py**
+
+```python
+ 
+ def iter_fastq_file(fastq_file_name):
+    """ Write here the correct doc string.
+    """
+    ...
+    yield header, sequence, strand, quality_string
+  
+class FastqData(BlockData):
+    ...
+    def _parse_header(self):
+        # воспользуйтесь документацией иллюмины
+        ...
+    
+    def _convert_phred_to_probability(self):
+        ...
+  
+def iter_fastq_blocks(fastq_file_name):
+    """ Write here the correct doc string.
+    """
+    ...
+    yield fastq_obj
+ 
+```
+  
+Документация по классам: https://docs.python.org/3/tutorial/classes.html
+
+## Работа с табличными файлами.
+  
+Задача уметь читать и писать:
+  
+1. csv files
+2. tsv files
+3. bed files
+4. gff3 files
+5. sam files
+6. vcf files
+  
+Для первых двух есть отличная библиотека https://docs.python.org/3/library/csv.html
+  
+Для остальных в лоб ее использовать не получится. Так как в них часто запихнуты не табличные данные.
+
+Сейчас ваша задача разобраться какие в этих файлах есть поля. А это проще всего сделать имплементиров ридеры для этих файлов.
+  
+Начнем опять с абстрактного контейнера, чтобы не повторять себя в коде много раз, , файл **playgroung/tsv_readers.py**
+  
+На этом этапе вам нужно составить только поля из соответствующих форматов, к усоврешенствованию этих классов мы еще много раз вернемся.
+Так что минимум придется доки по форматам найти и прочитать.
+  
+```python
+
+class TabDelimitedData:
+   def __init__(self):
+       ... 
+  
+class BEDData(TabDelimitedData):
+   def __init__(self):
+       ...
+
+class GFF3Data(TabDelimitedData):
+   def __init__(self):
+       ...
+  
+class SAMData(TabDelimitedData):
+   def __init__(self):
+       ...
+
+class VCFData(TabDelimitedData):
+   def __init__(self):
+       ...
+  
+```
+  
+Попробуйте найти в этих данных общее и вынести это в родительский класс.
+  
+При имплементации нужно решить следующие задачи будет, сейчас это задачка со зведочкой (*):
+  
+1. Есть 0- и 1-based файлы, нужно научиться конвертировать туда обратно, как это лучше сделать?
+2. Если значение число, то оно и должно возвращаться, как это лучше сделать.
+3. Часть значение это словари как из развернуть? Для части полей значения могут быть списками, а как это сделать?
+4. Возможно ли придумать как описывать поля, чтобы можно было легко менять базовые классы под новые форматы?
   
 ## Пишем свой парсер gbff (со зведочкой).
+
+Умея читать блочные файлы, чтения злобных форматов по типа генбанка уже не что-то сложное:
+  
+```python
+  
+class GBFFData(BlockData):
+    ...
+    def __init__(self):
+        ... 
+        self.sequence = ...
+        self.header = ...
+        self.length = ...
+        self.taxon = ...
+   ...
+  
+def iter_gbff_blocks(gbff_file_name):
+    """ Write here the correct doc string.
+    """
+    ...
+    yield gbff_obj
+```
   
 ## Вторая глава Кунина.
 
