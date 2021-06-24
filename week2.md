@@ -78,6 +78,7 @@ class FastaData:
         ...
     ...
 
+  
 def iter_fasta_objects(fasta_file_name):
     """ Write here the correct doc string.
     """
@@ -94,14 +95,21 @@ def iter_fasta_objects(fasta_file_name):
 
 class BlockData:
   
-def iter_block_objects(blocks_file_name, new_block_symbol):
+
+  def iter_block_objects(blocks_file_name, new_block_symbol):
     """ Write here the correct doc string.
     """
     ...
     block_obj = BlockData...
     ...
     yield block_obj
-  
+
+
+def iter_ block_file(blocks_file_name, new_block_symbol):
+    """ Write here the correct doc string.
+    """
+    ...
+    yield header, data
 ```
   
 Перепишите Fasta класс в виде, тоже в файле **playgroung/fasta_reader.py**:
