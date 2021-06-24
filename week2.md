@@ -229,7 +229,8 @@ def iter_gbff_blocks(gbff_file_name):
   
 ## Вторая глава Кунина.
 
-Во-первых, нужно пройти тест по первой главе Кунина.
+Во-первых, нужно пройти тест по первой главе Кунина. И конспект второй главы в виде терминов разбитых на группы.
+Не откладывайте Кунина, он сложней, чем может показываться.
   
 ## Начинаем штурмовать биологическую часть Розалинда.
   
@@ -245,7 +246,9 @@ def iter_gbff_blocks(gbff_file_name):
 8. Read Filtration by Quality http://rosalind.info/problems/filt/
 9. Base Quality Distribution http://rosalind.info/problems/bphr/
 10. Base Filtration by Quality http://rosalind.info/problems/bfil/
-
+  
+Часть решений смело добавляйте в классы, что мы пишем для чтения фасты и фастку.
+  
 ## Задачки с codewars для разогрева
 
 Задачки из слака яндекс практики по алгоритмам. Расчитаны на неделю.
