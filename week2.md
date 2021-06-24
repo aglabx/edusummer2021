@@ -68,7 +68,9 @@ def even_or_odd(number):
 10. Base Filtration by Quality http://rosalind.info/problems/bfil/
 
 ## Задачки с codewars для разогрева
- 
+
+Для каждой задачки нужно попробовать оценить сложность время/память. Статья вам в помощь https://habr.com/ru/post/444594/, кроме этого первая лекция яндекса. Вы же я надеюсь их смотрите?
+  
 ### 2.1. Human Readable Time kyu5
 
 https://www.codewars.com/kata/52685f7382004e774f0001f7/train/python
