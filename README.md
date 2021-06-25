@@ -37,7 +37,7 @@
 
 Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit11-yOjHrZNpi_92IMWXEmHS6w
 
-## Прогресс первого потока, второй спринт
+## Прогресс первого потока, второй спринт 14.06-28.06.2021
 
 | Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
@@ -49,7 +49,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 | Abusagit | 0/10 | 82 | 0/10 | PASS | 0 | 0/3 |
 | iuliiasavina | 0/10 | 4 | 0/10 | PASS | 0 | 0/3 |
 
-## Результаты первого потока, первый спринт
+## Результаты первого потока, первый спринтv 31.05-13.06.2021
  
 | Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
@@ -72,7 +72,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 ## Краткий план на этот месяц для первого потока
 
-**Спринт1 07-20.06.2021**
+**Спринт1 07-28.06.2021**
 
 1. Введение в гит с использование браузера.
 2. Регистрация на сайтах, которые будем использовать.
