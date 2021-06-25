@@ -41,13 +41,13 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 | Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
 | -- | -- | -- | -- | -- | -- | -- |
-| ochkalova | 0/10 | 52 | 0/10 | PASS | 0 | 0/3 |
-| Chaotic-algorithm | 0/10 | 63 | 0/10 | PASS | 32 | 0/3 |
-| sofya-d | 0/10 | 54 | 0/10 | PASS | 0 | 0/3 |
-| Nadya7n | 0/10 | 56 | 0/10 | PASS | 0 | 0/3 |
-| lavrentiy-danilov | 0/10 | 54 | 0/10 | PASS | 36 | 0/3 |
-| Abusagit | 0/10 | 82 | 0/10 | PASS | 0 | 0/3 |
-| iuliiasavina | 0/10 | 4 | 0/10 | PASS | 0 | 0/3 |
+| ochkalova | 0/10/6 | 54 | 0/10 | PASS | 0 | 0/3 |
+| Chaotic-algorithm | 0/10/18 | 63 | 0/10 | PASS | 32 | 0/3 |
+| sofya-d | 0/10/13 | 54 | 0/10 | PASS | 0 | 0/3 |
+| Nadya7n | 0/10/6 | 56 | 0/10 | PASS | 0 | 0/3 |
+| lavrentiy-danilov | 0/10/15 | 54 | 0/10 | PASS | 36 | 0/3 |
+| Abusagit | 0/10/26 | 154 | 0/10 | PASS | 0 | 0/3 |
+| iuliiasavina | 0/10/6 | 4 | 0/10 | PASS | 0 | 0/3 |
 
 ## Результаты первого потока, первый спринтv 31.05-13.06.2021
  
