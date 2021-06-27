@@ -268,6 +268,8 @@ def iter_gbff_blocks(gbff_file_name):
 Статья вам в помощь https://habr.com/ru/post/444594/ и тут https://www.programiz.com/dsa/asymptotic-notations, 
 кроме этого первая лекция яндекса. Вы же я надеюсь их смотрите?
   
+Еще две ссылки https://medium.com/dataseries/a-quick-primer-on-big-o-notation-c99ccc7ddbae и https://medium.com/dataseries/how-to-calculate-time-complexity-with-big-o-notation-9afe33aa4c46
+  
 ### 2.1. Human Readable Time kyu5
 
 https://www.codewars.com/kata/52685f7382004e774f0001f7/train/python
