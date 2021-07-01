@@ -3,8 +3,35 @@
 def opposite(number):
     return -1 * number
 ```
-    
-# 1. Unique on order
+
+# 2. [Even or Odd](https://www.codewars.com/kata/reviews/53da3de52a289a37bc00128a/groups/53ea21bc7b5dfef3e30006f8)
+```python
+def even_or_odd(number):
+    if number % 2 != 0:
+        return("Odd")
+    else:
+        return("Even")
+```
+
+# 3. [Vowel Count](https://www.codewars.com/users/VicDik/completed_solutions)
+
+```python
+def get_count(input_str):
+    vowels = ["a", "e", "i", "o", "u"]
+    return sum(input_str.count(i) for i in vowels)
+```
+
+# 4. [Disemvowel Trolls](https://www.codewars.com/users/VicDik/completed_solutions)
+
+```python
+def disemvowel(string_):
+    for i in "aeiouAEIOU":
+        string_ = string_.replace(i,"")
+    return string_
+```
+# 5. [
+
+# Other. Unique on order
 ```python
 def unique_in_order(unique:str):
     list_1 = []
