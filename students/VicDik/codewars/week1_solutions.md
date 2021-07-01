@@ -1,4 +1,4 @@
-# [1. Opposite number].(https://www.codewars.com/kata/reviews/56deebdf6a5c28baa900003b/groups/56ef47f804b6a49d7100190f)
+# [1. Opposite number](https://www.codewars.com/kata/reviews/56deebdf6a5c28baa900003b/groups/56ef47f804b6a49d7100190f).
 ```python
 def opposite(number):
     return -1 * number
