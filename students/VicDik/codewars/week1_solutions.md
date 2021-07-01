@@ -1,10 +1,10 @@
-# 1. [Opposite number]. (https://www.codewars.com/kata/reviews/56deebdf6a5c28baa900003b/groups/56ef47f804b6a49d7100190f)
+# [1. Opposite number].(https://www.codewars.com/kata/reviews/56deebdf6a5c28baa900003b/groups/56ef47f804b6a49d7100190f)
 ```python
 def opposite(number):
     return -1 * number
 ```
 
-# 2. [Even or Odd]. (https://www.codewars.com/kata/reviews/53da3de52a289a37bc00128a/groups/53ea21bc7b5dfef3e30006f8)
+# [2 [Even or Odd].(https://www.codewars.com/kata/reviews/53da3de52a289a37bc00128a/groups/53ea21bc7b5dfef3e30006f8)
 ```python
 def even_or_odd(number):
     if number % 2 != 0:
@@ -13,7 +13,7 @@ def even_or_odd(number):
         return("Even")
 ```
 
-# 3. [Vowel Count]. (https://www.codewars.com/users/VicDik/completed_solutions)
+# [3. Vowel Count].(https://www.codewars.com/users/VicDik/completed_solutions)
 
 ```python
 def get_count(input_str):
@@ -21,7 +21,7 @@ def get_count(input_str):
     return sum(input_str.count(i) for i in vowels)
 ```
 
-# 4. [Disemvowel Trolls]. (https://www.codewars.com/users/VicDik/completed_solutions)
+# [4. Disemvowel Trolls].(https://www.codewars.com/users/VicDik/completed_solutions)
 
 ```python
 def disemvowel(string_):
@@ -29,7 +29,7 @@ def disemvowel(string_):
         string_ = string_.replace(i,"")
     return string_
 ```
-# 5. [Get the Middle Character]. (https://www.codewars.com/users/VicDik/completed_solutions)
+# [5. Get the Middle Character].(https://www.codewars.com/users/VicDik/completed_solutions)
 
 ```python
 def get_middle(s):
@@ -39,14 +39,14 @@ def get_middle(s):
         return s[len(s) // 2]
 ```
 
-# 6. [All Star Code Challenge #1]. (https://www.codewars.com/kata/reviews/586435fe812998c93400129b/groups/586570e0ece9e8b0a2000ed8)
+# [6. All Star Code Challenge #1].(https://www.codewars.com/kata/reviews/586435fe812998c93400129b/groups/586570e0ece9e8b0a2000ed8)
 
 ```python
 def sum_ppg(player_one, player_two):
     return player_one['ppg'] + player_two['ppg']
 ```
 
-# Other. Unique on order. 
+# [Other. Unique on order.] 
 ```python
 def unique_in_order(unique:str):
     list_1 = []
