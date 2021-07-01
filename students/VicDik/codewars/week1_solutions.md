@@ -1,4 +1,4 @@
-# 1. Opposite number. https://www.codewars.com/kata/reviews/56deebdf6a5c28baa900003b/groups/56ef47f804b6a49d7100190f
+# [1. Opposite number](https://www.codewars.com/kata/reviews/56deebdf6a5c28baa900003b/groups/56ef47f804b6a49d7100190f).
 ```python
 def opposite(number):
     return -1 * number
@@ -44,6 +44,18 @@ def get_middle(s):
 ```python
 def sum_ppg(player_one, player_two):
     return player_one['ppg'] + player_two['ppg']
+```
+# [8. Array.diff](https://www.codewars.com/users/VicDik/completed_solutions). 
+
+```python
+def array_diff(a, b):
+    list_1 = []
+    for i in a:
+        if i in b:
+            pass
+        else:
+            list_1.append(i)
+    return(list_1)
 ```
 
 # [Other. Unique on order.] 
