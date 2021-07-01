@@ -62,7 +62,7 @@ def likes(names):
         return f"{names[0]}, {names[1]} and {len(names) - 2} others like this"
 ```
 
-# [8. Array.diff](https://www.codewars.com/users/VicDik/completed_solutions). 
+# [8. Array_diff](https://www.codewars.com/users/VicDik/completed_solutions). 
 
 ```python
 def array_diff(a, b):
@@ -75,7 +75,9 @@ def array_diff(a, b):
     return(list_1)
 ```
 
-# [Other. Unique on order.] 
+# [9. All Star Code Challenge #22]
+
+# [10. Unique on order.] 
 ```python
 def unique_in_order(unique:str):
     list_1 = []
