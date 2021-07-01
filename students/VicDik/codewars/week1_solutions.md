@@ -75,9 +75,14 @@ def array_diff(a, b):
     return(list_1)
 ```
 
-# [9. All Star Code Challenge #22]
+# [9. All Star Code Challenge #22](https://www.codewars.com/users/VicDik/completed_solutions).
 
-# [10. Unique on order.] 
+```python
+def to_time(seconds):
+    return f"{seconds//3600} hour(s) and {seconds%3600//60} minute(s)"
+```
+
+# 10. Unique on order. 
 ```python
 def unique_in_order(unique:str):
     list_1 = []
