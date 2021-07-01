@@ -9,8 +9,6 @@
 ### Непонятно:
 
 * **Синтетичсекая теория эволюции/Modern synthesis**
-![image](https://user-images.githubusercontent.com/61540096/123327342-fd59a300-d542-11eb-906a-9599040dad44.png)
-
 
 # Глава 1.
 
