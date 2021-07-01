@@ -1,5 +1,5 @@
 # 1. Unique on order
-```
+```python
 def unique_in_order(unique:str):
     list_1 = []
     for id in range(len(unique)):
