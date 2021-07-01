@@ -1,6 +1,6 @@
 # 1. Unique on order
 
-''' def unique_in_order(unique:str):
+``` def unique_in_order(unique:str):
     list_1 = []
     for id in range(len(unique)):
         if id == len(unique) - 1:
@@ -9,4 +9,4 @@
             pass
         else:
             list_1.append(unique[id])
-    return list_1 '''
+    return list_1 ```
