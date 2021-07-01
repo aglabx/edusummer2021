@@ -1,3 +1,9 @@
+# Opposite number
+```python
+def opposite(number):
+    return -1 * number
+    ```
+    
 # 1. Unique on order
 ```python
 def unique_in_order(unique:str):
