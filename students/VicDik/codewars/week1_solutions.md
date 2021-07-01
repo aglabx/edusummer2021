@@ -45,6 +45,23 @@ def get_middle(s):
 def sum_ppg(player_one, player_two):
     return player_one['ppg'] + player_two['ppg']
 ```
+
+# [7. Who likes it?](https://www.codewars.com/users/VicDik/completed_solutions).
+
+```python
+def likes(names):
+    if len(names) == 0:
+        return "no one likes this"
+    elif len(names) == 1:
+        return f"{names[0]} likes this"
+    elif len(names) == 2:
+        return f"{names[0]} and {names[1]} like this"
+    elif len(names) == 3:
+        return f"{names[0]}, {names[1]} and {names[2]} like this"
+    elif len(names) >= 4:
+        return f"{names[0]}, {names[1]} and {len(names) - 2} others like this"
+```
+
 # [8. Array.diff](https://www.codewars.com/users/VicDik/completed_solutions). 
 
 ```python
