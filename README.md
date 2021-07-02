@@ -136,7 +136,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 Сделайте у себя форк этой репозитории. Ваша рабочая папка будет **edusummer2021/students/\<username\>**.
 Внутри следующая структура:
 
-**edusummer2021/students/\<username\>/kunin** - конспект Кунина и задачки по нему.
+**edusummer2021/students/\<username\>/koonin** - конспект Кунина и задачки по нему.
 
 **edusummer2021/students/\<username\>/basic_algo** - решения задачек яндекса.
 
@@ -201,6 +201,8 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 Кроме терминов, еще нужно придумать три вопроса, которых еще нет в списке уже придуманных вопросов, который будет обнавлятся по мере продвижения.
 
 Не откладывайте Кунина, он сложней, чем может показываться.
+
+Ожидается файл: **"koonin/chaptet1.md"**
 
 ### Регистрация на **Rosalind**
 
