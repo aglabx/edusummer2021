@@ -314,3 +314,7 @@ https://www.codewars.com/kata/51c8e37cee245da6b40000bd
 ## Вторая неделя яндекса (ползвёздочки, 10 points for each)
   
 Попробуйте решить их. Они значительно проще чем первая неделя.
+
+[Лекция 2](https://www.youtube.com/watch?v=SKwB41FrGgU&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
+
+[Задачки 2](https://contest.yandex.ru/contest/27472/enter/)
