@@ -39,15 +39,16 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 ## Прогресс первого потока, второй спринт
 
-| Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
+| Student | Rosalind | Koonin | Applied Coding | Codewars | Yandex | Total |
 | -- | -- | -- | -- | -- | -- | -- |
-| ochkalova | 0/10 | 52 | 0/10 | PASS | 0 | 0/3 |
-| Chaotic-algorithm | 0/10 | 63 | 0/10 | PASS | 32 | 0/3 |
-| sofya-d | 0/10 | 54 | 0/10 | PASS | 0 | 0/3 |
-| Nadya7n | 0/10 | 56 | 0/10 | PASS | 0 | 0/3 |
-| lavrentiy-danilov | 0/10 | 54 | 0/10 | PASS | 36 | 0/3 |
-| Abusagit | 0/10 | 82 | 0/10 | PASS | 0 | 0/3 |
-| iuliiasavina | 0/10 | 4 | 0/10 | PASS | 0 | 0/3 |
+| Maximal | 55 | 20 | 90 | 66 | -- | 231 |
+| ochkalova | 0 | 20 | 0 | 0 | 0 | 20 |
+| Chaotic-algorithm | 0 | 0 | 0 | 0 | 0 | 0 |
+| sofya-d | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nadya7n | 0 | 0 | 0 | 0 | 0 | 0 |
+| lavrentiy-danilov | 0 | 0 | 0 | 66 | 0 | 66 |
+| Abusagit | 55 | 20 | 50 | 66 | 0 | 191 |
+| iuliiasavina | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Результаты первого потока, первый спринт
  
