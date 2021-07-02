@@ -2,4 +2,4 @@
 Test case.
 '''
 
-answer = 1 + 1
+ANSWER = 1 + 1
