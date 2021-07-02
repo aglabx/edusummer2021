@@ -42,7 +42,7 @@ def even_or_odd(number):
   
 Без такого форматирование задание автоматически не примется.
   
-## Биологические форматы данных.
+## Биологические форматы данных (всего можно набрать 90 points).
   
 Ccылка тут: https://github.com/aglabx/edusummer2021/blob/main/biological_formats.md
 
@@ -50,7 +50,7 @@ Ccылка тут: https://github.com/aglabx/edusummer2021/blob/main/biological_
 
 Сделайте папочку playground, мы в ней начнем писать вашу лучную библиотеку для биоинформатики.
   
-Задача реализовать следующее решение, файл **playground/fasta_reader.py**:
+Задача реализовать следующее решение, файл **playground/fasta_reader.py** (20 points):
   
 ```python
   
@@ -87,7 +87,7 @@ def iter_fasta_objects(fasta_file_name):
  
 ```
   
-Написать абстрактный ридер блочных файлов на основе кода фаста ридера с классами и без, файл **playground/block_reader.py**.
+Написать абстрактный ридер блочных файлов на основе кода фаста ридера с классами и без, файл **playground/block_reader.py** (10 points).
   
 ```python
 
@@ -120,7 +120,7 @@ class FastaData(BlockData):
 
 Теперь у нас есть всё, чтобы легко написать парсер для FastQ файла, сначала напишите решение в лоб, а потом напишите красивый класс.
   
-Это будет основой следующего спринта, когда будем FastQC свой писать, чтобы разобраться в его самых страшных секретах, файл **playground/fastq_reader.py**
+Это будет основой следующего спринта, когда будем FastQC свой писать, чтобы разобраться в его самых страшных секретах, файл **playground/fastq_reader.py** (20 points)
 
 ```python
  
@@ -166,7 +166,7 @@ def iter_fastq_blocks(fastq_file_name):
 
 Сейчас ваша задача разобраться какие в этих файлах есть поля. А это проще всего сделать имплементиров ридеры для этих файлов.
   
-Начнем опять с абстрактного контейнера, чтобы не повторять себя в коде много раз, , файл **playground/tsv_readers.py**
+Начнем опять с абстрактного контейнера, чтобы не повторять себя в коде много раз, , файл **playground/tsv_readers.py** (10 points)
   
 На этом этапе вам нужно составить только поля из соответствующих форматов, к усоврешенствованию этих классов мы еще много раз вернемся.
 Так что минимум придется доки по форматам найти и прочитать.
@@ -204,7 +204,9 @@ class VCFData(TabDelimitedData):
 3. Часть значение это словари как из развернуть? Для части полей значения могут быть списками, а как это сделать?
 4. Возможно ли придумать как описывать поля, чтобы можно было легко менять базовые классы под новые форматы?
   
-## Пишем свой парсер gbff (со зведочкой).
+## Пишем свой парсер gbff (со зведочкой, 30 points).
+
+Файл **playground/gbff_readers.py**.
 
 Умея читать блочные файлы, чтения злобных форматов по типа генбанка уже не что-то сложное:
   
@@ -227,7 +229,7 @@ def iter_gbff_blocks(gbff_file_name):
     yield gbff_obj
 ```
   
-## Вторая глава Кунина.
+## Вторая глава Кунина (20 points).
 
 Во-первых, нужно пройти тест по первой главе Кунина. И конспект второй главы в виде терминов разбитых на группы.
 
@@ -244,7 +246,7 @@ def iter_gbff_blocks(gbff_file_name):
 Ожидается файл: *"koonin/chapter2.md"*
 
   
-## Начинаем штурмовать биологическую часть Розалинда.
+## Начинаем штурмовать биологическую часть Розалинда (55 points, по сумме номеров задачи).
   
 Задачки на эту неделю:
   
@@ -261,7 +263,7 @@ def iter_gbff_blocks(gbff_file_name):
   
 Часть решений смело добавляйте в классы, что мы пишем для чтения фасты и фастку.
   
-## Задачки с codewars для разогрева
+## Задачки с codewars для разогрева (15 points, по сумме номеров задачи)
 
 Задачки из слака яндекс практики по алгоритмам. Расчитаны на неделю.
   
@@ -272,43 +274,43 @@ def iter_gbff_blocks(gbff_file_name):
   
 Еще две ссылки https://medium.com/dataseries/a-quick-primer-on-big-o-notation-c99ccc7ddbae и https://medium.com/dataseries/how-to-calculate-time-complexity-with-big-o-notation-9afe33aa4c46
   
-### 2.1. Human Readable Time kyu5
+### 1. Human Readable Time kyu5
 
 https://www.codewars.com/kata/52685f7382004e774f0001f7/train/python
 
-### 2.2. Isograms kyu7
+### 2. Isograms kyu7
 https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/python
 
-### 2.3. Categorize New Member kyu7
+### 3. Categorize New Member kyu7
 https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/python
 
-### 2.4. Vasya - Clerk kyu6
+### 4. Vasya - Clerk kyu6
 https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8/train/python
 
-### 2.5. The Supermarket Queue kyu6
+### 5. The Supermarket Queue kyu6
 https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
-## Задачки с codewars по теме работа с циклами
+## Задачки с codewars по теме работа с циклами (51 points)
 
-### 2.6. Sum of a sequence kyu7
+### 6. Sum of a sequence kyu7
 https://www.codewars.com/kata/586f6741c66d18c22800010a
 
-### 2.7. Sum of a Beach kyu7
+### 7. Sum of a Beach kyu7
 https://www.codewars.com/kata/5b37a50642b27ebf2e000010
 
-### 2.8. Alphabet war kyu7
+### 8. Alphabet war kyu7
 https://www.codewars.com/kata/59377c53e66267c8f6000027
 
-### 2.9. Create Phone Number kyu6
+### 9. Create Phone Number kyu6
 https://www.codewars.com/kata/525f50e3b73515a6db000b83
 
-### 2.10. Rot13 kyu5
+### 10. Rot13 kyu5
 https://www.codewars.com/kata/530e15517bc88ac656000716
 
-### 2.11. Strip Comments kyu4
+### 11. Strip Comments kyu4
 https://www.codewars.com/kata/51c8e37cee245da6b40000bd
 
   
-## Вторая неделя яндекса (ползвёздочки)
+## Вторая неделя яндекса (ползвёздочки, 10 points for each)
   
 Попробуйте решить их. Они значительно проще чем первая неделя.
