@@ -202,7 +202,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 Не откладывайте Кунина, он сложней, чем может показываться.
 
-Ожидается файл: **"koonin/chaptet1.md"**
+Ожидается файл: **"koonin/chapter1.md"**
 
 ### Регистрация на **Rosalind**
 
