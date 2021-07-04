@@ -74,6 +74,26 @@ for record in SeqIO.parse("fastq.txt", "fastq"):
 
 print(count)
 ```
+# 7. Read Quality Distribution.
+
+```python
+from Bio import SeqIO
+
+with open('fastq_threshold.txt', 'r') as fastq_threshold, open('fastq.txt', 'w') as fastq:
+    lines = fastq_threshold.readlines()
+    threshold = int(lines[0])
+    del lines[0]
+    for line in lines:
+        fastq.write(line)
+
+count = 0
+for record in SeqIO.parse("fastq.txt", "fastq"):
+    phred = record.letter_annotations["phred_quality"]
+    if sum(phred) / len(phred) < threshold:
+        count += 1
+
+print(count)
+```
 
 # 8. Read Filtration by Quality.
 
