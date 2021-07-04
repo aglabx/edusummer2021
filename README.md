@@ -39,15 +39,16 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 ## Прогресс первого потока, второй спринт 14.06-05.07.2021
 
-| Student | Rosalind | Codewar Score | Codewar solved | Status | Review Comments | Кунин |
+| Student | Rosalind | Koonin | Applied Coding | Codewars | Yandex | Total |
 | -- | -- | -- | -- | -- | -- | -- |
-| ochkalova | 0/10/6 | 54 | 0/10 | PASS | 0 | 0/3 |
-| Chaotic-algorithm | 0/10/18 | 63 | 0/10 | PASS | 32 | 0/3 |
-| sofya-d | 0/10/13 | 54 | 0/10 | PASS | 0 | 0/3 |
-| Nadya7n | 0/10/6 | 56 | 0/10 | PASS | 0 | 0/3 |
-| lavrentiy-danilov | 0/10/15 | 54 | 0/10 | PASS | 36 | 0/3 |
-| Abusagit | 0/10/26 | 154 | 0/10 | PASS | 0 | 0/3 |
-| iuliiasavina | 0/10/6 | 4 | 0/10 | PASS | 0 | 0/3 |
+| Maximal | 55 | 20 | 90 | 66 | -- | 231 |
+| ochkalova | 0 | 20 | 0 | 0 | 0 | 20 |
+| Chaotic-algorithm | 0 | 0 | 0 | 0 | 0 | 0 |
+| sofya-d | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nadya7n | 0 | 0 | 0 | 0 | 0 | 0 |
+| lavrentiy-danilov | 0 | 0 | 0 | 66 | 0 | 66 |
+| Abusagit | 55 | 20 | 50 | 66 | 0 | 191 |
+| iuliiasavina | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Результаты первого потока, первый спринтv 31.05-13.06.2021
  
@@ -109,16 +110,16 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 6. Четвертая глава Кунина.
 7. TBA
 
-## План на ближайщую неделю (07-13.06.2021)
+## План на ближайщую неделю (05-12.07.2021)
 
 На этой неделе вам не нужно ничего кроме браузера.
 
-### Оформление гитхаба
+### Оформление гитхаба (21 points)
 
 У вас должно быть:
 1. Аватарка с вашей фоткой.
 2. Короткое саммари о вас. Это можно вместе напридумывать.
-3. Компания: ITMO или aglab, ITMO или aglabx (если вы из другого вуза).
+3. Компания: ITMO или aglab, если вы из другого вуза, то ваш ВУЗ или место работы
 4. Ваш личный емейл.
 5. Ссылку на сколар, если есть статьи в нем.
 6. Ссылки на соц сети по желанию.
@@ -131,12 +132,14 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 Еще будет не раз про то, как это все завести и научиться использовать. Форк-пул-пулреквест-ревью-мердж-пул и тд.
 
-### Оформление репозитория для сдачи и проверки заданий
+### Оформление репозитория для сдачи и проверки заданий (35 points)
 
 Сделайте у себя форк этой репозитории. Ваша рабочая папка будет **edusummer2021/students/\<username\>**.
 Внутри следующая структура:
 
-**edusummer2021/students/\<username\>/kunin** - конспект Кунина и задачки по нему.
+**edusummer2021/students/\<username\>/playground** - тут будет код наших проектов по биоиформатике.
+
+**edusummer2021/students/\<username\>/koonin** - конспект Кунина и задачки по нему.
 
 **edusummer2021/students/\<username\>/basic_algo** - решения задачек яндекса.
 
@@ -149,7 +152,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 **edusummer2021/students/\<username\>/\*.md** - ваши конспекты и читшиты по разным темам.
 
 
-### Регистрация на **codewars**
+### Регистрация на **codewars** (20 points)
 
 Нужно зарегистрироваться на [codewars.com](http://codewars.com). В настройка прописать **Clan** aglabx. 
 Лучше всего под вашим именем. Мой аккаунт [https://www.codewars.com/users/ad3002](https://www.codewars.com/users/ad3002).
@@ -174,7 +177,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 После решения будет возможность прислать ссылку на решение, его можно сслать всем, так как до того как ты сам решишь, чужие решения не видны.
 
-### Регистрация на **codingame**
+### Регистрация на **codingame** (20 points)
 
 Нужно зарегистрироваться на [https://www.codingame.com/](https://www.codingame.com/).
 Страну, компанию и универ прописать как у меня в [профайле](https://www.codingame.com/profile/509dc1ac873abf797447706c39b5e9220928924).
@@ -183,7 +186,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 На данном этапе нам нужны [clash of code](https://www.codingame.com/multiplayer/clashofcode), остальные части платформы для вас пока будут очень сложными.
 Пока приватные, чтобы уровень был один.
 
-### Первая глава Кунина (страницы 1-19)
+### Первая глава Кунина (страницы 1-19) (40 points)
 
 На первом проходе вы читаете и выписываете все термины и ключевых персонажей. Да, его невозможно с одного прохода прочитать, особенно первую главу.
 Если совсем не врубаетесь, то лезете в англиийскую википедию. Если совсем плохо, то обсуждем уже очно.
@@ -202,7 +205,9 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 Не откладывайте Кунина, он сложней, чем может показываться.
 
-### Регистрация на **Rosalind**
+Ожидается файл: **"koonin/chapter1.md"**
+
+### Регистрация на **Rosalind** (30 points)
 
 Зарегистрироваться на [rosalind](http://rosalind.info/). Регистрируйтесь через гитхаб или гмейл, ну или как нравится.
 И пройти [Python Village](http://rosalind.info/problems/list-view/?location=python-village) - это должно вам очень просто.
@@ -217,7 +222,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 5. [Working with Files](http://rosalind.info/problems/ini5/)
 6. [Dictionaries](http://rosalind.info/problems/ini6/)
 
-### Решение алгоритмов (со звездочкой)
+### Решение алгоритмов (со звездочкой) (200 points)
 
 Зарегистрироваться на [интро от яндекса](https://yandex.ru/yaintern/algorithm-training) там очень на пальцах про базовые концепции алгоритмов.
 От вас ожидается решенная первая домашка и первая лекция.
@@ -226,11 +231,7 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 [Задачки 1](https://contest.yandex.ru/contest/27393/enter/)
 
-[Лекция 2](https://www.youtube.com/watch?v=SKwB41FrGgU&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
-
-[Задачки 2](https://contest.yandex.ru/contest/27472/enter/)
-
-### Что нужно делать?
+### Что нужно делать? (14 points)
 
 1. Везде зарегаться и заполнить профайлы.
 2. Добавиться в группу телеграма [https://t.me/joinchat/JUSW8DXeS4phNTcy](https://t.me/joinchat/JUSW8DXeS4phNTcy), и кратко написать о себе там.
@@ -253,12 +254,14 @@ Slack канал: https://join.slack.com/t/edusummer2021/shared_invite/zt-rgjeit
 
 ## Как сдать задачки
 
-Для каждого типа задачек у вас есть файл **week1_solutions.md**, например, для codewars он будет лежать в **./students/\<your_username\>/codewars/week1_solutions.md**.
+Для каждого типа задачек у вас есть файл **week1_solutions.md**, например, для codewars он будет лежать в **./students/\<your_username\>/codewars/week1_solutions.md** в ветке **week1**.
+
+Для каждого типа задачек у вас есть файл **week1_solutions.md**, например, для codewars он будет лежать в **./students/\<your_username\>/codewars/week2_solutions.md** в ветке **week2**.
 
 Это файл нужно открыть в гитхаб и нажать кнопку редактировть, после этого в нем прописать ваши решения вот с таким синтаксисом
 
 ``````text
-## [3. Vowel count](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
+# 3. Vowel count https://www.codewars.com/kata/54ff3102c1bad923760001f3
 
 ```python
 def get_count(input_str):
@@ -271,7 +274,7 @@ def get_count(input_str):
     return num_vowels
 ```
 
-# [6. Get the Middle Character](https://www.codewars.com/kata/5863f97fb3a675d9a700003f/python)
+# 6. Get the Middle Character https://www.codewars.com/kata/5863f97fb3a675d9a700003f/python
 
 ```python
 def sum_ppg(playerOne, playerTwo):
