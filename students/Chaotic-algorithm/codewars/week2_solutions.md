@@ -128,7 +128,7 @@ std::string rot13(std::string msg)
 {
   for (char& s : msg){
     s = islower(s) ? 'a' + (s - 'a' + 13) % 26:
-        isupper(s) ? 'A' + (s - 'A' +13) % 26: \
+        isupper(s) ? 'A' + (s - 'A' + 13) % 26: \
     s;
   }
   return msg;
