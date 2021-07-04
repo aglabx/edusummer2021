@@ -5,7 +5,6 @@ seq = input()
 counts = collections.Counter(seq)
 print( counts['A'], counts['C'], counts['G'], counts['T'], end = " ")
 
-# 4. GenBank Introduction.
 ```
 # 4. GenBank Introduction.
 
