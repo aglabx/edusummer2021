@@ -2,7 +2,7 @@ class BlockData:
     path_string = r"{0}.{1}"  # 0 - path, 1 - format
 
     def __init__(self, path, file_format):
-        self.path = "./" if "/" not in set(path) else path
+        self.path = r"./" if r'/' not in set(path) else path
         self.path_format = BlockData.path_string.format(*(path, file_format))
 
     def iter_block_objects(self, block_obj):

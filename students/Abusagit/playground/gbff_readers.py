@@ -25,6 +25,7 @@ class GBFFData(block_reader.BlockData):
 
         self.locations = tuple(sorted(self.sequence.keys()))
         # self.length = self.locations[-1] + (len(self.sequence[self.locations[-1]]) - 1) # can be found in the 1st line
+
     def iter_gbff_blocks(self):
         """ Write here the correct doc string.
         """
