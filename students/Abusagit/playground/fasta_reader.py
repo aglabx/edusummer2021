@@ -1,6 +1,5 @@
 import students.Abusagit.playground.block_reader as block_reader
 
-
 """
 Implements reading .fasta file format
 """
@@ -11,11 +10,20 @@ def stupid_fasta_reader(fasta_file_name):
     fasta_file_name: fasta file localisation
     """
     with open(rf"{fasta_file_name}.fasta") as f_read:
-        sequences = []
-        for line in f_read:
-            pass
-
-    return sequences
+        iterator = iter(f_read.readlines())
+    sequence = {0: next(iterator)}
+    _i = 1
+    for line in iterator:
+        if line.startswith('>'):
+            yield sequence[0], ''.join(sequence[j] for j in range(1, _i))
+            _i = 1
+            sequence.clear()
+            sequence[0] = line
+        else:
+            sequence[_i] = line.strip()
+            _i += 1
+    else:
+        yield sequence[0], ''.join(sequence[j] for j in range(1, _i))
 
 
 def iter_fasta_reader(fasta_file_name):
@@ -23,18 +31,18 @@ def iter_fasta_reader(fasta_file_name):
         # print(f_read.readlines())
         iterator = iter(f_read.readlines())
     sequence = {0: next(iterator)}
-    i = 1
+    _i = 1
     for line in iterator:
         if line.startswith('>'):
-            yield sequence[0], ''.join(sequence[j] for j in range(1, i))
-            i = 1
+            yield sequence[0], ''.join(sequence[j] for j in range(1, _i))
+            _i = 1
             sequence.clear()
             sequence[0] = line
         else:
-            sequence[i] = line.strip()
-            i += 1
+            sequence[_i] = line.strip()
+            _i += 1
     else:
-        yield sequence[0], ''.join(sequence[j] for j in range(1, i))
+        yield sequence[0], ''.join(sequence[j] for j in range(1, _i))
 
 
 class FastaData(block_reader.BlockData):
@@ -43,13 +51,13 @@ class FastaData(block_reader.BlockData):
 
     def iter_block_file(self, new_block_symbol='>'):
         yield from super(FastaData, self).iter_block_file(new_block_symbol)
-    
+
     def iter_block_objects(self, block_obj):
         yield from super(FastaData, self).iter_block_objects(block_obj)
-        
+
 
 if __name__ == '__main__':
-    for h, s in iter_fasta_reader(rf"../rosalind/output"):
+    for h, s in iter_fasta_reader(r"../rosalind/output"):
         print(h, repr(s))
         print(len(s))
 

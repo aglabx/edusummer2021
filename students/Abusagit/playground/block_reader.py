@@ -1,8 +1,8 @@
 class BlockData:
-    path_string = "{0}.{1}"  # 0 - path, 1 - format
+    path_string = r"{0}.{1}"  # 0 - path, 1 - format
 
     def __init__(self, path, file_format):
-        self.path = "./" if '/' not in set(path) else path
+        self.path = "./" if "/" not in set(path) else path
         self.path_format = BlockData.path_string.format(*(path, file_format))
 
     def iter_block_objects(self, block_obj):
@@ -12,7 +12,7 @@ class BlockData:
         """
         Write here the correct doc string.
         """
-        with open(fr"{self.path_format}") as f_read:
+        with open(self.path_format) as f_read:
             _i = 1
             block_obj = {0: f_read.readline()}
             for line in f_read:
@@ -27,6 +27,16 @@ class BlockData:
             else:
                 yield block_obj[0].strip(), (block_obj[j] for j in range(1, _i))  # header, generator
             block_obj.clear()
+
+    def iter_block_file2(self, new_block_symbol):
+        """
+
+        :param new_block_symbol:
+        :return: sequence
+        """
+        with open(self.path_format) as f_read:
+            sequence = []
+            header = 
 
 
 if __name__ == '__main__':
